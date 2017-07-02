@@ -54,7 +54,7 @@
             "overlayColor": "#7e9b9f",
             "socialFacebook": false,
             "socialGoogle": false,
-            "shortName": "georgefedoseev",
+            "shortName": "george-fedoseev",
             "socialDisqus": true
           },
           "innerText": "<div class=\"facebookPlaceholder\" data-numposts=\"\"><h2>FACEBOOK COMMENTS WILL BE SHOWN ONLY WHEN YOUR SITE IS ONLINE</h2> <img src=\"@ADDONS_PATH@/facebook-comments/facebook-comments-block/assets/facebook-comments.jpg\"></div>",
