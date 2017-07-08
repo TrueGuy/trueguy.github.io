@@ -22,37 +22,20 @@
       }
     },
     "versionFirst": "3.12.1",
-    "uniqCompNum": 13,
+    "uniqCompNum": 14,
     "versionPublish": "3.12.1"
   },
   "pages": {
     "index": {
       "settings": {
         "main": true,
-        "title": "",
+        "title": "Homepage",
         "meta_descr": "",
         "header_custom": "",
         "footer_custom": "",
         "html_before": ""
       },
       "components": [
-        {
-          "_name": "footer1",
-          "_anchor": "footer1-2",
-          "_params": {
-            "paddingTop": 2,
-            "paddingBottom": 2,
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#323232",
-            "bgColorRadio": true,
-            "overlay": true,
-            "overlayOpacity": 0.8,
-            "overlayColor": "#444444"
-          },
-          "text": "Copyright (c) 2016 Mobirise."
-        },
         {
           "_styles": {
             ".mbr-section-title, .mbr-section-subtitle": {
@@ -65,13 +48,13 @@
           "_name": "header3",
           "_anchor": "header3-7",
           "_params": {
-            "paddingTop": 1,
-            "paddingBottom": 1,
+            "paddingTop": "5",
+            "paddingBottom": "5",
             "bgColor": "#fff",
             "showMeta": true
           },
-          "title": "Title with Solid Background Color",
-          "meta": "By John Smith posted July 20, 2016"
+          "title": "Homepage",
+          "meta": "under construction"
         },
         {
           "_inherit": "gallery1",
@@ -91,7 +74,7 @@
                 "thumb": "@THEME_PATH@/components/_images/gallery/bike-small.jpg",
                 "image": "@THEME_PATH@/components/_images/gallery/bike.jpg",
                 "caption": "Type caption here",
-                "active": true
+                "active": false
               },
               {
                 "tags": "Responsive",
@@ -100,16 +83,18 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "thumb": "@THEME_PATH@/components/_images/gallery/code-man-small.jpg",
                 "image": "@THEME_PATH@/components/_images/gallery/code-man.jpg",
-                "caption": "Type caption here"
+                "caption": "Type caption here",
+                "active": false
               },
               {
                 "tags": "Creative",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": true,
+                "videoUrl": "https://vimeo.com/192165492",
+                "videoPreview": "@PROJECT_PATH@/assets/images/2017-07-08-14-34-25.jpg",
                 "thumb": "@THEME_PATH@/components/_images/gallery/coworkers-small.jpg",
                 "image": "@THEME_PATH@/components/_images/gallery/coworkers.jpg",
-                "caption": "Type caption here"
+                "caption": "Type caption here",
+                "active": true
               },
               {
                 "tags": "Animated",
@@ -160,7 +145,7 @@
             "spacing": 1,
             "showText": false,
             "filter": false,
-            "bgColor": "#000000",
+            "bgColor": "#ffffff",
             "filterBgColor": true,
             "fullWidth": true,
             "showBullets": true
