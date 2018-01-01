@@ -26,7 +26,8 @@
     },
     "versionFirst": "3.12.1",
     "uniqCompNum": 42,
-    "versionPublish": "4.2.4"
+    "versionPublish": "4.5.4",
+    "path": "@PROJECT_PATH@"
   },
   "pages": {
     "index": {
@@ -189,7 +190,7 @@
             "paddingBottom": 1,
             "bgColor": "#fff"
           },
-          "text": "<p>\n</p><p>Dubai, UAE</p>",
+          "text": "<p>\n</p><p>St. Petersburg, Russia</p>",
           "_tags": [
             "Theme"
           ],
