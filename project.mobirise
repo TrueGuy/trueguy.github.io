@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "page2.html",
+    "currentPage": "page3.html",
     "name": "My Site",
     "theme": {
       "name": "mobirise3",
@@ -204,7 +204,7 @@
             "paddingBottom": 1,
             "bgColor": "#fff"
           },
-          "title": "Articles",
+          "title": "Blog Articles",
           "meta": "",
           "_tags": [
             "Theme"
@@ -292,7 +292,7 @@
               "src": "@PROJECT_PATH@/assets/images/rounded-corners-122x128.png",
               "height": 128,
               "alt": "George Fedoseev",
-              "link": "http://georgefedoseev.com/",
+              "link": "index.html",
               "title": "",
               "linkInNewWindow": false
             },
@@ -305,8 +305,8 @@
               "size": 0
             }
           },
-          "brand": "<a class=\"navbar-caption text-black\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"http://georgefedoseev.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">&nbsp; George Fedoseev<br></a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"page2.html\">BLOG</a></li>",
+          "brand": "<a class=\"navbar-caption text-black\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">&nbsp; George Fedoseev<br></a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"page2.html\">BLOG ARTICLES</a></li>",
           "_anchor": "ext_menu-19"
         },
         {
@@ -411,7 +411,7 @@
               "src": "@PROJECT_PATH@/assets/images/rounded-corners-122x128.png",
               "height": 128,
               "alt": "George Fedoseev",
-              "link": "http://georgefedoseev.com/",
+              "link": "index.html",
               "title": "",
               "linkInNewWindow": false
             },
@@ -424,8 +424,8 @@
               "size": 0
             }
           },
-          "brand": "<a class=\"navbar-caption text-black\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"http://georgefedoseev.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">&nbsp; George Fedoseev<br></a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"page2.html\">BLOG</a></li>",
+          "brand": "<a class=\"navbar-caption text-black\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">&nbsp; George Fedoseev<br></a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"page2.html\">BLOG ARTICLES</a></li>",
           "_anchor": "ext_menu-1b"
         },
         {
@@ -440,7 +440,7 @@
             "paddingBottom": 1,
             "bgColor": "#fff"
           },
-          "title": "How to play Cuphead Co-Op on one keyboard (+over internet through Geforce Experience Stream)",
+          "title": "How to play Cuphead Co-Op on one keyboard (+over internet through Geforce Experience Stream)<br>",
           "meta": "",
           "_tags": [
             "Theme"
@@ -625,7 +625,7 @@
         }
       ]
     },
-    "index.html.index": {
+    "index.html": {
       "settings": {
         "main": true,
         "title": "George Fedoseev Homepage",
@@ -878,7 +878,7 @@
               "src": "@PROJECT_PATH@/assets/images/rounded-corners-122x128.png",
               "height": 128,
               "alt": "George Fedoseev",
-              "link": "http://georgefedoseev.com/",
+              "link": "index.html",
               "title": "",
               "linkInNewWindow": false
             },
@@ -891,8 +891,8 @@
               "size": 0
             }
           },
-          "brand": "<a class=\"navbar-caption text-black\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"http://georgefedoseev.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">&nbsp; George Fedoseev<br></a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"page2.html\">BLOG</a></li>"
+          "brand": "<a class=\"navbar-caption text-black\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">&nbsp; George Fedoseev<br></a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"page2.html\">BLOG ARTICLES</a></li>"
         },
         {
           "_styles": {
