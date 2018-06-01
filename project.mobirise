@@ -1168,7 +1168,7 @@
             "paddingBottom": "7",
             "bgColor": "#ffffff"
           },
-          "text": "<p>\n</p><p><b>E-mail: </b>george.fedoseev _at_ me.com</p><p><b>Twitter: </b><a href=\"https://twitter.com/george_fedoseev\" target=\"_blank\" class=\"text-danger\">twitter.com/george_fedoseev</a></p><p><b>VK: </b><a href=\"http://vk.com/george.fedoseev\" target=\"_blank\" class=\"text-danger\">vk.com/george.fedoseev</a></p>",
+          "text": "<p>\n</p><p><b>E-mail: </b>george.fedoseev@me.com</p>",
           "_tags": [
             "Theme"
           ],
