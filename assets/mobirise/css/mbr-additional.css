@@ -1,5 +1,4 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,300,700);
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,700);
 
 
 
@@ -7,11 +6,11 @@ body,
 input,
 textarea,
 .mbr-company .list-group-text {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 .mbr-footer-content li,
 .mbr-footer .mbr-contacts li {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 .btn,
 .alert,
@@ -58,14 +57,14 @@ h6,
 .mbr-section-hero .mbr-section-lead,
 .mbr-cards .card-subtitle,
 .mbr-testimonial .card-block {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
 }
 .mbr-author-name {
   font-family: 'Roboto', sans-serif;
 }
 .mbr-author-desc {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
 }
 .mbr-plan-title {
@@ -73,7 +72,7 @@ h6,
 }
 .mbr-plan-subtitle,
 .mbr-plan-price-desc {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
 }
 .bg-primary {

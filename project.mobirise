@@ -13,8 +13,8 @@
         "warningColor": "#f3c649",
         "dangerColor": "#000000",
         "titleFont": "Roboto",
-        "subtitleFont": "Open Sans",
-        "textFont": "Open Sans",
+        "subtitleFont": "Roboto",
+        "textFont": "Roboto",
         "isRoundedButtons": false,
         "isAnimatedOnScroll": false,
         "isScrollToTopButton": true,
@@ -463,7 +463,7 @@
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "parallax": true,
             "bgColorRadio": true,
-            "bgColor": "#F2F2F2",
+            "bgColor": "#ffffff",
             "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
@@ -723,7 +723,7 @@
             }
           },
           "title": "Happy Skeletons",
-          "text": "<p>Technologies used: Unity3D, Microsoft Kinect</p>",
+          "text": "<p>Technologies used: Unity3D, Kinect</p>",
           "_tags": [
             "Theme"
           ],
@@ -965,7 +965,7 @@
           "_tags": [
             "Theme"
           ],
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"http://gfedoseev.com/3thingstodo/\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">CHECK IT OUT</a>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"http://georgefedoseev.com/3thingstodo/\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">CHECK IT OUT</a>",
           "_name": "msg-box6",
           "_anchor": "msg-box6-m"
         },
