@@ -961,7 +961,7 @@
             }
           },
           "title": "3 THINGS TO DO",
-          "text": "iOS and WatchOS application for day planning with 3 tasks for every day. Synchronizes between Apple devices and reminds about planned tasks. More information <a href=\"http://gfedoseev.com/3thingstodo/\" target=\"_blank\">here</a>.<br><br>Technologies used: Apple Swift, Realm, iCloud<br>",
+          "text": "iOS and WatchOS application for day planning with 3 tasks for every day. Synchronizes between Apple devices and reminds about planned tasks. More information <a href=\"http://georgefedoseev.com/3thingstodo/\" target=\"_blank\">here</a>.<br><br>Technologies used: Apple Swift, Realm, iCloud<br>",
           "_tags": [
             "Theme"
           ],
