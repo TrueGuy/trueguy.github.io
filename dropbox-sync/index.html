@@ -499,26 +499,40 @@ pre.line-numbers > code {
 
 <p><img src="http://georgefedoseev.com/dropbox-sync/assets/DropboxSync_Large.png" alt="Logo"></p>
 
-<h2 id="toc_1">Getting started</h2>
+<h3 id="toc_1">Contents</h3>
 
-<h3 id="toc_2">Setting up Dropbox App Folder</h3>
+<ul>
+<li><a href="#SettingUpDropboxAppFolder">Setting up Dropbox App Folder</a></li>
+<li><a href="#CopyingExampleContent">Copying Example content for Example scenes</a></li>
+<li><a href="#RunningExampleScenes">Running Example scenes</a></li>
+</ul>
 
-<h4 id="toc_3">Step 1</h4>
+<p><br>
+<hr>
+<br></p>
+
+<h2 id="toc_2">Getting started</h2>
+
+<p><a name="SettingUpDropboxAppFolder"></a></p>
+
+<h3 id="toc_3">Setting up Dropbox App Folder</h3>
+
+<h4 id="toc_4">Step 1</h4>
 
 <p>Navigate to <a href="https://www.dropbox.com/developers/apps/" target="_blank">Dropbox App creating page</a> and click <strong>Create app</strong> button.<br>
 <img src="http://georgefedoseev.com/dropbox-sync/assets/tutorial-assets/1.png" width=600/></p>
 
-<h4 id="toc_4">Step 2</h4>
+<h4 id="toc_5">Step 2</h4>
 
 <p>Create new app folder<br>
 <img src="http://georgefedoseev.com/dropbox-sync/assets/tutorial-assets/2.png" width=500/></p>
 
-<h4 id="toc_5">Step 3</h4>
+<h4 id="toc_6">Step 3</h4>
 
 <p>After creation you will be redirected to <code>https://www.dropbox.com/developers/apps/info/&lt;your-app-key&gt;</code>. Here you need to generate <strong>accessToken</strong> for your app that will be used by DropboxSync.<br>
 <img src="http://georgefedoseev.com/dropbox-sync/assets/tutorial-assets/3.png" width=500/></p>
 
-<h4 id="toc_6">Step 4</h4>
+<h4 id="toc_7">Step 4</h4>
 
 <p>Copy generated access token and paste into <strong>DropboxSync Script</strong> inspector field in <strong>DropboxSyncFilesExample</strong> in Unity.<br>
 <img src="http://georgefedoseev.com/dropbox-sync/assets/tutorial-assets/4.png" width=500/>
@@ -528,24 +542,28 @@ pre.line-numbers > code {
 
 <p>Now you have example scene connected to your app folder. To run example scenes you need to copy example content to your created app folder. </p>
 
-<h3 id="toc_7">Copying Example content for Example scenes</h3>
+<p><a name="CopyingExampleContent"></a></p>
+
+<h3 id="toc_8">Copying Example content for Example scenes</h3>
 
 <p>Save <a href="https://www.dropbox.com/sh/u9yubr1rcydaf9s/AAD5Sf2MTKVTMjZCX8A2t3oOa" target="_blank">this folder</a> to your Dropbox account <strong>and then move it to created app folder</strong> that you copied accessToken for on previous steps.</p>
 
-<h3 id="toc_8">Running Example scenes</h3>
+<p><a name="RunningExampleScenes"></a></p>
 
-<h4 id="toc_9">Example scene 1 - DropboxSyncFilesExample</h4>
+<h3 id="toc_9">Running Example scenes</h3>
+
+<h4 id="toc_10">Example scene 1 - DropboxSyncFilesExample</h4>
 
 <p>Now when you run <strong>DropboxSyncFilesExample</strong> scene you should see something like this:<br>
 <img src="http://georgefedoseev.com/dropbox-sync/assets/tutorial-assets/7.png" width=500/></p>
 
-<h4 id="toc_10">Example scene 2 - DropboxSyncFoldersExample</h4>
+<h4 id="toc_11">Example scene 2 - DropboxSyncFoldersExample</h4>
 
 <p>To run other example scene (<strong>DropboxSyncFoldersExample</strong>) copy <strong>accessToken</strong> to DropboxSync inspector field same way and click play. You should see something like this:<br>
 <img src="http://georgefedoseev.com/dropbox-sync/assets/tutorial-assets/8.png" width=500/>
 <img src="http://georgefedoseev.com/dropbox-sync/assets/tutorial-assets/9.png" width=500/></p>
 
-<h3 id="toc_11">Custom scene</h3>
+<h3 id="toc_12">Custom scene</h3>
 
 <p>To use DropbBoxSync asset on your own scenes create GameObject and attach DropboxSync script to it. Then use asset from your scripts through <code>DropboxSync.Main</code> instance.</p>
 
