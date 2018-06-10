@@ -1,33 +1,32 @@
 {
   "settings": {
-    "currentPage": "index.html",
+    "currentPage": "cuphead-coop-keyboard-internet-geforce-stream.html",
     "name": "My Site",
     "theme": {
       "name": "mobirise3",
       "title": "Mobirise 3",
       "styling": {
-        "primaryColor": "#fc5500",
+        "primaryColor": "#faaf40",
         "secondaryColor": "#bfcecb",
         "successColor": "#90a878",
         "infoColor": "#7e9b9f",
         "warningColor": "#f3c649",
         "dangerColor": "#000000",
-        "titleFont": "Roboto",
-        "subtitleFont": "Roboto",
-        "textFont": "Roboto",
+        "titleFont": "Montserrat",
+        "subtitleFont": "Lora",
+        "textFont": "Raleway",
         "isRoundedButtons": false,
         "isAnimatedOnScroll": false,
         "isScrollToTopButton": true,
         "isRtl": false
       },
       "additionalSetColors": [
-        "#3e3e3e",
-        "#fc5500"
+        "#3e3e3e"
       ]
     },
     "versionFirst": "3.12.1",
-    "uniqCompNum": 60,
-    "versionPublish": "4.7.7",
+    "uniqCompNum": 58,
+    "versionPublish": "4.6.3",
     "path": "@PROJECT_PATH@",
     "screenshot": "screenshot.png",
     "favicon": "",
@@ -35,8 +34,7 @@
     "google-analytics": "<!-- Global site tag (gtag.js) - Google Analytics -->\r\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-112324097-1\"></script>\r\n<script>\r\n  window.dataLayer = window.dataLayer || [];\r\n  function gtag(){dataLayer.push(arguments);}\r\n  gtag('js', new Date());\r\n\r\n  gtag('config', 'UA-112324097-1');\r\n</script>",
     "publishType": "github",
     "gitHubName": "georgefedoseev",
-    "gitHubPath": "",
-    "siteFonts": []
+    "gitHubPath": ""
   },
   "pages": {
     "page1": {
@@ -120,7 +118,7 @@
           "logo": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/logo.png",
+              "src": "@THEME_PATH@/components/_images/logo.png",
               "height": 128,
               "alt": "Mobirise",
               "link": "https://mobirise.com"
@@ -171,7 +169,7 @@
           },
           "logo": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/logo.png",
+              "src": "@THEME_PATH@/components/_images/logo.png",
               "width": 128,
               "active": true
             },
@@ -202,6 +200,36 @@
             ".mbr-section-title, .mbr-section-subtitle": {
               "text-align": "center"
             },
+            ".mbr-section-subtitle": {
+              "color": "#3e3e3e",
+              "font-size": "46px",
+              "font-family": "'Open Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700",
+              "text-align": "left"
+            },
+            ".mbr-section-title": {
+              "text-align": "left"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-7",
+          "_params": {
+            "showMeta": false,
+            "paddingTop": "7",
+            "paddingBottom": "1",
+            "bgColor": "#fff"
+          },
+          "title": "",
+          "meta": ""
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            },
             ".mbr-section-title": {
               "text-align": "left"
             },
@@ -211,7 +239,7 @@
           },
           "_params": {
             "showMeta": false,
-            "paddingTop": "6",
+            "paddingTop": 1,
             "paddingBottom": 1,
             "bgColor": "#ffffff"
           },
@@ -229,7 +257,7 @@
             "paddingBottom": 1,
             "bgColor": "#fff"
           },
-          "text": "<p>\n</p><p>AI, Python, Unity3D, VR/AR, C#, guitar, snowboarding</p>",
+          "text": "<p>\n</p><p>Unity3D, Unreal Engine, VR, iOS, C#, JavaScript, guitar, snowboarding</p>",
           "_tags": [
             "Theme"
           ],
@@ -382,7 +410,7 @@
               "color": "@primaryColor"
             },
             ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
-              "color": "#fc5500!important"
+              "color": "#faaf40!important"
             }
           },
           "_name": "ext.menu",
@@ -433,101 +461,16 @@
             },
             ".mbr-section-title": {
               "text-align": "left"
-            },
-            ".mbr-section-subtitle": {
-              "text-align": "left"
             }
           },
           "_params": {
-            "showMeta": true,
-            "paddingTop": "3",
-            "paddingBottom": "2",
-            "bgColor": "#fff"
-          },
-          "title": "<span style=\"font-weight: normal;\">[research] Speech Recognition</span>",
-          "meta": "Feb-May 2018",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "header3",
-          "_anchor": "header3-1m"
-        },
-        {
-          "_inherit": "msg-box5",
-          "_params": {
-            "showTitle": true,
-            "showText": true,
-            "showButtons": false,
-            "inverse": true,
-            "imageSize": 50,
-            "paddingTop": "1",
-            "paddingBottom": "1",
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "parallax": true,
-            "bgColorRadio": true,
-            "bgColor": "#ffffff",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": false,
-            "overlayColor": "#fff",
-            "overlayOpacity": 0.5
-          },
-          "media": {
-            "image": {
-              "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/search-demo-5.gif",
-              "link": "",
-              "alt": "",
-              "title": ""
-            },
-            "video": {
-              "active": true,
-              "src": "https://vimeo.com/272967618",
-              "aspectratio": "4:3",
-              "autoplay": "on",
-              "loop": "on"
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-msg-box4",
-              "linkInNewWindow": false,
-              "name": "play",
-              "family": "MobiriseIcons",
-              "link": "",
-              "size": 250
-            }
-          },
-          "title": "DeepSpeech for Russian language",
-          "text": "<p>Trained DeepSpeech speech-to-text system was applied to speech search task in big collection of video files. Implemented search service allows to jump to a particular moment in video where requested text is being spoken.</p><p>Technologies used: Deep Neural Networks, TensorFlow, Python, Flask</p>",
-          "_tags": [
-            "Theme"
-          ],
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>",
-          "_name": "msg-box4",
-          "_anchor": "msg-box4-1n"
-        },
-        {
-          "_styles": {
-            ".mbr-section-title, .mbr-section-subtitle": {
-              "text-align": "center"
-            },
-            ".mbr-section-title": {
-              "text-align": "left"
-            },
-            ".mbr-section-subtitle": {
-              "text-align": "left"
-            }
-          },
-          "_params": {
-            "showMeta": true,
+            "showMeta": false,
             "paddingTop": "3",
             "paddingBottom": "2",
             "bgColor": "#fff"
           },
           "title": "<span style=\"font-weight: normal;\">Projects at <a href=\"http://eventagrate.com\" target=\"_blank\" class=\"text-danger\">EventAgratE</a>:</span>",
-          "meta": "2017",
+          "meta": "",
           "_tags": [
             "Theme"
           ],
@@ -726,7 +669,7 @@
             }
           },
           "title": "Happy Skeletons",
-          "text": "<p>Technologies used: Unity3D, Kinect</p>",
+          "text": "<p>Technologies used: Unity3D, Microsoft Kinect</p>",
           "_tags": [
             "Theme"
           ],
@@ -791,19 +734,16 @@
             },
             ".mbr-section-title": {
               "text-align": "left"
-            },
-            ".mbr-section-subtitle": {
-              "text-align": "left"
             }
           },
           "_params": {
-            "showMeta": true,
+            "showMeta": false,
             "paddingTop": "5",
             "paddingBottom": "2",
             "bgColor": "#fff"
           },
           "title": "<span style=\"font-weight: normal;\">Projects at <a href=\"http://spheravr.com/\" target=\"_blank\" class=\"text-danger\">SpheraVR</a>:</span>",
-          "meta": "2016",
+          "meta": "",
           "_tags": [
             "Theme"
           ],
@@ -964,11 +904,11 @@
             }
           },
           "title": "3 THINGS TO DO",
-          "text": "iOS and WatchOS application for day planning with 3 tasks for every day. Synchronizes between Apple devices and reminds about planned tasks. More information <a href=\"http://georgefedoseev.com/3thingstodo/\" target=\"_blank\">here</a>.<br><br>Technologies used: Apple Swift, Realm, iCloud<br>",
+          "text": "iOS and WatchOS application for day planning with 3 tasks for every day. Synchronizes between Apple devices and reminds about planned tasks. More information <a href=\"http://gfedoseev.com/3thingstodo/\" target=\"_blank\">here</a>.<br><br>Technologies used: Apple Swift, Realm, iCloud<br>",
           "_tags": [
             "Theme"
           ],
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"http://georgefedoseev.com/3thingstodo/\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">CHECK IT OUT</a>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"http://gfedoseev.com/3thingstodo/\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">CHECK IT OUT</a>",
           "_name": "msg-box6",
           "_anchor": "msg-box6-m"
         },
@@ -1048,7 +988,7 @@
               "size": 250
             }
           },
-          "title": "UNIVERSITY CAMPUS 3D MAP",
+          "title": "UNIVERCITY CAMPUS 3D MAP",
           "text": "Mobile 3D map of PM-PU campus in Saint Petersburg State University. Features class room search, 3d map overview, shedule of classes and going from schedule right to location on map.<br><br>Technologies used: Unity3D",
           "_tags": [
             "Theme"
@@ -1171,7 +1111,7 @@
             "paddingBottom": "7",
             "bgColor": "#ffffff"
           },
-          "text": "<p>\n</p><p><b>E-mail: </b>george.fedoseev@me.com</p>",
+          "text": "<p>\n</p><p><b>E-mail: </b>george.fedoseev _at_ me.com</p><p><b>Twitter: </b><a href=\"https://twitter.com/george_fedoseev\" target=\"_blank\" class=\"text-danger\">twitter.com/george_fedoseev</a></p><p><b>VK: </b><a href=\"http://vk.com/george.fedoseev\" target=\"_blank\" class=\"text-danger\">vk.com/george.fedoseev</a></p>",
           "_tags": [
             "Theme"
           ],
@@ -1381,7 +1321,7 @@
           "media": {
             "image": {
               "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/vjoy-mapping-629x404.png",
+              "src": "@PROJECT_PATH@/assets/images/vjoy_mapping-629x404.png",
               "link": "",
               "alt": "",
               "title": "",
@@ -1506,7 +1446,9 @@
           },
           "innerText": "<div class=\"facebookPlaceholder\" data-numposts=\"\"><h2>FACEBOOK COMMENTS WILL BE SHOWN ONLY WHEN YOUR SITE IS ONLINE</h2> <img src=\"@ADDONS_PATH@/facebook-comments/facebook-comments-block/assets/facebook-comments.jpg\"></div>",
           "innerTextGoogle": "<div class=\"googlePlaceholder\" data-numposts=\"\"><h2>GOOGLE COMMENTS WILL BE SHOWN ONLY WHEN YOUR SITE IS ONLINE</h2> <img src=\"@ADDONS_PATH@/facebook-comments/facebook-comments-block/assets/google-comments.jpg\"></div>",
+
           "innerTextDisqus": "<div class=\"disqusPlaceholder\" data-numposts=\"\"><h2>DISQUS COMMENTS WILL BE SHOWN ONLY WHEN YOUR SITE IS ONLINE</h2> <img src=\"@PROJECT_PATH@/assets/images/disqus-comments.jpg\"></div>",
+
           "alias": "facebook-comments",
           "_tags": [
             "Extension"
@@ -1599,7 +1541,7 @@
               "color": "@primaryColor"
             },
             ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
-              "color": "#fc5500!important"
+              "color": "#faaf40!important"
             }
           },
           "_name": "ext.menu",

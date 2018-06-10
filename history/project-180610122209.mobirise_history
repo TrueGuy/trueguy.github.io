@@ -36,7 +36,7 @@
     "publishType": "github",
     "gitHubName": "georgefedoseev",
     "gitHubPath": "",
-    "siteFonts": []
+    "siteFonts": []      
   },
   "pages": {
     "page1": {
@@ -187,6 +187,7 @@
         }
       ]
     },
+
     "index.html": {
       "settings": {
         "main": true,
