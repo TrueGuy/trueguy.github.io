@@ -495,11 +495,15 @@ pre.line-numbers > code {
 
 <body>
 
-<h1 id="toc_0">DropboxSync <a href="/dropbox-sync"><code>Tutorial</code></a><code>Documentation</code></h1>
+<h1 id="toc_0"><img src="assets/rounded-corners-122x128.png" width=30/> George Fedoseev</h1>
 
-<p><img src="http://georgefedoseev.com/dropbox-sync/assets/DropboxSync_Large.png" alt="Logo"></p>
+<h2 id="toc_1"></h2>
 
-<h3 id="toc_1">Contents</h3>
+<h1 id="toc_2">DropboxSync <a href="/dropbox-sync"><code>Tutorial</code></a><code>Documentation</code></h1>
+
+<p><img src="http://georgefedoseev.com/dropbox-sync/assets/DropboxSync_Large.png?nocache=1" alt="Logo"></p>
+
+<h3 id="toc_3">Contents</h3>
 
 <ul>
 <li>Retrieving files
@@ -527,11 +531,11 @@ pre.line-numbers > code {
 <hr>
 <br></p>
 
-<h1 id="toc_2"><code>Retrieving files</code></h1>
+<h1 id="toc_4"><code>Retrieving files</code></h1>
 
 <p><a name="GetFileAsBytes"></a></p>
 
-<h2 id="toc_3">GetFileAsBytes()</h2>
+<h2 id="toc_5">GetFileAsBytes()</h2>
 
 <div><pre class="line-numbers"><code class="language-csharp">public void GetFileAsBytes(string dropboxPath,
     Action&lt;DropboxRequestResult&lt;byte[]&gt;&gt; onResult,
@@ -542,7 +546,7 @@ pre.line-numbers > code {
 
 <p>Asynchronously retrieves file from Dropbox as <code>byte[]</code>.  </p>
 
-<h3 id="toc_4">Parameters</h3>
+<h3 id="toc_6">Parameters</h3>
 
 <table>
 <thead>
@@ -580,7 +584,7 @@ pre.line-numbers > code {
 </tbody>
 </table>
 
-<h3 id="toc_5">Example usage</h3>
+<h3 id="toc_7">Example usage</h3>
 
 <div><pre class="line-numbers"><code class="language-csharp">// Download file from Dropbox (or used cached if no updates) as byte array.
 DropboxSync.Main.GetFileAsBytes(&quot;/DropboxSyncExampleFolder/image.jpg&quot;, (res) =&gt; {
@@ -595,7 +599,7 @@ DropboxSync.Main.GetFileAsBytes(&quot;/DropboxSyncExampleFolder/image.jpg&quot;,
 
 <p><a name="GetFileT"></a></p>
 
-<h2 id="toc_6">GetFile&lt;T&gt;()</h2>
+<h2 id="toc_8">GetFile&lt;T&gt;()</h2>
 
 <div><pre class="line-numbers"><code class="language-csharp">public void GetFile&lt;T&gt;(string dropboxPath, 
     Action&lt;DropboxRequestResult&lt;T&gt;&gt; onResult,
@@ -615,7 +619,7 @@ DropboxSync.Main.GetFileAsBytes(&quot;/DropboxSyncExampleFolder/image.jpg&quot;,
 <li><code>Texture2D</code> - for image files</li>
 </ul>
 
-<h3 id="toc_7">Parameters</h3>
+<h3 id="toc_9">Parameters</h3>
 
 <table>
 <thead>
@@ -653,7 +657,7 @@ DropboxSync.Main.GetFileAsBytes(&quot;/DropboxSyncExampleFolder/image.jpg&quot;,
 </tbody>
 </table>
 
-<h3 id="toc_8">Example usage</h3>
+<h3 id="toc_10">Example usage</h3>
 
 <div><pre class="line-numbers"><code class="language-csharp">// Download Jpeg image from Dropbox (or used cached if no updates)
 // and receive it as Texture2D object.
@@ -669,7 +673,7 @@ DropboxSync.Main.GetFile&lt;Texture2D&gt;(&quot;/DropboxSyncExampleFolder/image.
 
 <p><a name="GetFileAsLocalCachedPath"></a></p>
 
-<h2 id="toc_9">GetFileAsLocalCachedPath()</h2>
+<h2 id="toc_11">GetFileAsLocalCachedPath()</h2>
 
 <div><pre class="line-numbers"><code class="language-csharp">public void GetFileAsLocalCachedPath(string dropboxPath,
     Action&lt;DropboxRequestResult&lt;string&gt;&gt; onResult,
@@ -680,7 +684,7 @@ DropboxSync.Main.GetFile&lt;Texture2D&gt;(&quot;/DropboxSyncExampleFolder/image.
 
 <p>Asynchronously retrieves file from Dropbox and returns path to local filesystem cached copy.  </p>
 
-<h3 id="toc_10">Parameters</h3>
+<h3 id="toc_12">Parameters</h3>
 
 <table>
 <thead>
@@ -718,7 +722,7 @@ DropboxSync.Main.GetFile&lt;Texture2D&gt;(&quot;/DropboxSyncExampleFolder/image.
 </tbody>
 </table>
 
-<h3 id="toc_11">Example usage</h3>
+<h3 id="toc_13">Example usage</h3>
 
 <div><pre class="line-numbers"><code class="language-csharp">// Download video from Dropbox (or use cached if no updates)
 // and get local filepath.
@@ -738,11 +742,11 @@ DropboxSync.Main.GetFileAsLocalCachedPath(&quot;/DropboxSyncExampleFolder/video.
 
 <p><br></p>
 
-<h1 id="toc_12"><code>Getting folder structure</code></h1>
+<h1 id="toc_14"><code>Getting folder structure</code></h1>
 
 <p><a name="GetFolderStructure"></a></p>
 
-<h2 id="toc_13">GetFolderStructure()</h2>
+<h2 id="toc_15">GetFolderStructure()</h2>
 
 <div><pre class="line-numbers"><code class="language-csharp">public void GetFolderStructure(string dropboxFolderPath,
     Action&lt;DropboxRequestResult&lt;DBXFolder&gt;&gt; onResult,
@@ -750,7 +754,7 @@ DropboxSync.Main.GetFileAsLocalCachedPath(&quot;/DropboxSyncExampleFolder/video.
 
 <p>Asynchronously retrieves DBXFolder object with all recursive sub structure.</p>
 
-<h3 id="toc_14">Parameters</h3>
+<h3 id="toc_16">Parameters</h3>
 
 <table>
 <thead>
@@ -778,7 +782,7 @@ DropboxSync.Main.GetFileAsLocalCachedPath(&quot;/DropboxSyncExampleFolder/video.
 
 <p><a name="GetFolderItems"></a></p>
 
-<h2 id="toc_15">GetFolderItems()</h2>
+<h2 id="toc_17">GetFolderItems()</h2>
 
 <div><pre class="line-numbers"><code class="language-csharp">public void GetFolderItems(string path,
     Action&lt;DropboxRequestResult&lt;List&lt;DBXItem&gt;&gt;&gt; onResult,
@@ -787,7 +791,7 @@ DropboxSync.Main.GetFileAsLocalCachedPath(&quot;/DropboxSyncExampleFolder/video.
 
 <p>Asynchronously retrieves flat list of <code>DBXItem</code> objects (files and folders).</p>
 
-<h3 id="toc_16">Parameters</h3>
+<h3 id="toc_18">Parameters</h3>
 
 <table>
 <thead>
@@ -817,7 +821,7 @@ DropboxSync.Main.GetFileAsLocalCachedPath(&quot;/DropboxSyncExampleFolder/video.
 </tbody>
 </table>
 
-<h3 id="toc_17">Example usage</h3>
+<h3 id="toc_19">Example usage</h3>
 
 <div><pre class="line-numbers"><code class="language-csharp">// Count all files on Dropbox
 DropboxSync.Main.GetFolderItems(&quot;/&quot;, (res) =&gt; {
@@ -835,11 +839,11 @@ DropboxSync.Main.GetFolderItems(&quot;/&quot;, (res) =&gt; {
 
 <p><br></p>
 
-<h1 id="toc_18"><code>Changes notifications</code></h1>
+<h1 id="toc_20"><code>Changes notifications</code></h1>
 
 <p><a name="SubscribeToFileChanges"></a></p>
 
-<h2 id="toc_19">SubscribeToFileChanges()</h2>
+<h2 id="toc_21">SubscribeToFileChanges()</h2>
 
 <div><pre class="line-numbers"><code class="language-csharp">public void SubscribeToFileChanges(string dropboxFilePath,
     Action&lt;DBXFileChange&gt; onChange)</code></pre></div>
@@ -850,7 +854,7 @@ DropboxSync.Main.GetFolderItems(&quot;/&quot;, (res) =&gt; {
 
 <p>Update interval can be changed using <code>DBXChangeForChangesIntervalSeconds</code> (default values if 5 seconds).</p>
 
-<h3 id="toc_20">Parameters</h3>
+<h3 id="toc_22">Parameters</h3>
 
 <table>
 <thead>
@@ -874,7 +878,7 @@ DropboxSync.Main.GetFolderItems(&quot;/&quot;, (res) =&gt; {
 
 <p><a name="SubscribeToFolderChanges"></a></p>
 
-<h2 id="toc_21">SubscribeToFolderChanges()</h2>
+<h2 id="toc_23">SubscribeToFolderChanges()</h2>
 
 <div><pre class="line-numbers"><code class="language-csharp">public void SubscribeToFolderChanges(string dropboxFilePath,
     Action&lt;List&lt;DBXFileChange&gt;&gt; onChange)</code></pre></div>
@@ -885,7 +889,7 @@ DropboxSync.Main.GetFolderItems(&quot;/&quot;, (res) =&gt; {
 
 <p>Update interval can be changed using <code>DBXChangeForChangesIntervalSeconds</code> (default values if 5 seconds).</p>
 
-<h3 id="toc_22">Parameters</h3>
+<h3 id="toc_24">Parameters</h3>
 
 <table>
 <thead>
