@@ -967,7 +967,7 @@
           "_tags": [
             "Theme"
           ],
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-info\" href=\"http://georgefedoseev.com/3thingstodo/\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">CHECK IT OUT</a>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-info\" href=\"https://assetstore.unity.com/packages/tools/integration/dropboxsync-120529\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">CHECK IT OUT</a>",
           "_name": "msg-box6",
           "_anchor": "msg-box6-1p"
         },
