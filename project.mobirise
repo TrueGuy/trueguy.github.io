@@ -9,7 +9,7 @@
         "primaryColor": "#fc5500",
         "secondaryColor": "#bfcecb",
         "successColor": "#90a878",
-        "infoColor": "#7e9b9f",
+        "infoColor": "#007ee5",
         "warningColor": "#f3c649",
         "dangerColor": "#000000",
         "titleFont": "Roboto",
@@ -22,20 +22,19 @@
       },
       "additionalSetColors": [
         "#3e3e3e",
-        "#fc5500"
+        "#fc5500",
+        "#00aeec",
+        "#007ee5"
       ]
     },
     "versionFirst": "3.12.1",
-    "uniqCompNum": 60,
+    "uniqCompNum": 62,
     "versionPublish": "4.7.7",
     "path": "@PROJECT_PATH@",
     "screenshot": "screenshot.png",
     "favicon": "",
     "noImageResize": "",
     "google-analytics": "<!-- Global site tag (gtag.js) - Google Analytics -->\r\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-112324097-1\"></script>\r\n<script>\r\n  window.dataLayer = window.dataLayer || [];\r\n  function gtag(){dataLayer.push(arguments);}\r\n  gtag('js', new Date());\r\n\r\n  gtag('config', 'UA-112324097-1');\r\n</script>",
-    "publishType": "github",
-    "gitHubName": "georgefedoseev",
-    "gitHubPath": "",
     "siteFonts": []
   },
   "pages": {
@@ -541,7 +540,7 @@
             "showText": true,
             "showButtons": false,
             "inverse": true,
-            "imageSize": 50,
+            "imageSize": "35",
             "paddingTop": "1",
             "paddingBottom": "1",
             "bgImageRadio": false,
@@ -591,7 +590,7 @@
             "showText": true,
             "showButtons": false,
             "inverse": true,
-            "imageSize": 50,
+            "imageSize": "35",
             "paddingTop": "1",
             "paddingBottom": "1",
             "bgImageRadio": false,
@@ -641,7 +640,7 @@
             "showText": true,
             "showButtons": false,
             "inverse": true,
-            "imageSize": 50,
+            "imageSize": "35",
             "paddingTop": "1",
             "paddingBottom": "1",
             "bgImageRadio": false,
@@ -691,7 +690,7 @@
             "showText": true,
             "showButtons": false,
             "inverse": true,
-            "imageSize": "50",
+            "imageSize": "35",
             "paddingTop": "1",
             "paddingBottom": "1",
             "bgImageRadio": false,
@@ -741,7 +740,7 @@
             "showText": true,
             "showButtons": false,
             "inverse": true,
-            "imageSize": "50",
+            "imageSize": "35",
             "paddingTop": "1",
             "paddingBottom": "1",
             "bgImageRadio": false,
@@ -905,8 +904,8 @@
             "paddingBottom": 1,
             "bgColor": "#ffffff"
           },
-          "title": "<a href=\"http://gfedoseev.com/3thingstodo/\" target=\"_blank\" class=\"text-danger\">3 Things to Do</a>",
-          "meta": "November 2016<br>",
+          "title": "<a href=\"https://assetstore.unity.com/packages/tools/integration/dropboxsync-120529\" target=\"_blank\" class=\"text-danger\">DropboxSync</a>",
+          "meta": "June 2018<br>",
           "_tags": [
             "Theme"
           ],
@@ -925,9 +924,94 @@
             "showText": true,
             "showButtons": true,
             "inverse": true,
+            "imageSize": "50",
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/dropboxsync-fb-1200x630.png",
+            "parallax": false,
+            "bgColorRadio": false,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#000000",
+            "overlayOpacity": "0.6"
+          },
+          "media": {
+            "image": {
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/iphone5c-blue-angle1-1400x773.png",
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "src": "https://vimeo.com/277768365",
+              "aspectratio": "4:3",
+              "autoplay": false,
+              "loop": false,
+              "active": true
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box5",
+              "link": "",
+              "size": 250
+            }
+          },
+          "title": "DropboxSync <br>Unity3D Asset",
+          "text": "DropboxSync solves problem of updating application content without creating a new build. Constant tracking of  Dropbox file changes allows to gracefully update content even at runtime.<br><br>Technologies used: Dropbox API, Unity3D<br>",
+          "_tags": [
+            "Theme"
+          ],
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-info\" href=\"http://georgefedoseev.com/3thingstodo/\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">CHECK IT OUT</a>",
+          "_name": "msg-box6",
+          "_anchor": "msg-box6-1p"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            },
+            ".mbr-section-title": {
+              "text-align": "left"
+            },
+            ".mbr-section-subtitle": {
+              "text-align": "left"
+            }
+          },
+          "_params": {
+            "showMeta": true,
+            "paddingTop": "4",
+            "paddingBottom": 1,
+            "bgColor": "#ffffff"
+          },
+          "title": "<a href=\"http://gfedoseev.com/3thingstodo/\" target=\"_blank\" class=\"text-danger\">3 Things to Do</a>",
+          "meta": "November 2016<br>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-1o"
+        },
+        {
+          "_inherit": "msg-box5",
+          "_styles": {
+            ".mbr-section-title, .lead p": {
+              "color": "#fff"
+            }
+          },
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "inverse": true,
             "imageSize": "53",
-            "paddingTop": "3",
-            "paddingBottom": "3",
+            "paddingTop": "2",
+            "paddingBottom": "2",
             "bgImageRadio": true,
             "bgImage": "@PROJECT_PATH@/assets/images/coffe-with-kate-2000x1333.jpg",
             "parallax": false,
@@ -939,7 +1023,7 @@
             },
             "overlay": true,
             "overlayColor": "#000000",
-            "overlayOpacity": "0.5"
+            "overlayOpacity": "0.7"
           },
           "media": {
             "image": {
@@ -1008,11 +1092,11 @@
           "_params": {
             "showTitle": true,
             "showText": true,
-            "showButtons": false,
+            "showButtons": true,
             "inverse": true,
             "imageSize": 50,
-            "paddingTop": "3",
-            "paddingBottom": "3",
+            "paddingTop": "1",
+            "paddingBottom": "1",
             "bgImageRadio": true,
             "bgImage": "@PROJECT_PATH@/assets/images/pmmap-header-2000x1337.jpg",
             "parallax": false,
@@ -1053,7 +1137,7 @@
           "_tags": [
             "Theme"
           ],
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"http://pm-map.ru\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">CHECK IT OUT</a>",
           "_name": "msg-box6",
           "_anchor": "msg-box6-o"
         },
@@ -1096,8 +1180,8 @@
             "showButtons": false,
             "inverse": true,
             "imageSize": 50,
-            "paddingTop": "3",
-            "paddingBottom": "3",
+            "paddingTop": "2",
+            "paddingBottom": "2",
             "bgImageRadio": true,
             "bgImage": "@PROJECT_PATH@/assets/images/space-purple-1920x1200.jpg",
             "parallax": false,
@@ -1157,7 +1241,7 @@
             "paddingBottom": 1,
             "bgColor": "#ffffff"
           },
-          "title": "My Contacts",
+          "title": "E-mail",
           "meta": "October 2015<br>",
           "_tags": [
             "Theme"
@@ -1171,7 +1255,7 @@
             "paddingBottom": "7",
             "bgColor": "#ffffff"
           },
-          "text": "<p>\n</p><p><b>E-mail: </b>george.fedoseev@me.com</p>",
+          "text": "<p>\n</p><p>george.fedoseev@me.com</p>",
           "_tags": [
             "Theme"
           ],
