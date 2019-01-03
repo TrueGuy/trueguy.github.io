@@ -29,7 +29,7 @@
     },
     "versionFirst": "3.12.1",
     "uniqCompNum": 62,
-    "versionPublish": "4.7.7",
+    "versionPublish": "4.8.10",
     "path": "@PROJECT_PATH@",
     "screenshot": "screenshot.png",
     "favicon": "",
@@ -214,7 +214,7 @@
             "paddingBottom": 1,
             "bgColor": "#ffffff"
           },
-          "title": "My skills and interests",
+          "title": "Skills and interests",
           "meta": "October 2015<br>",
           "_tags": [
             "Theme"
@@ -228,7 +228,7 @@
             "paddingBottom": 1,
             "bgColor": "#fff"
           },
-          "text": "<p>\n</p><p>AI, Python, Unity3D, VR/AR, C#, guitar, snowboarding</p>",
+          "text": "<p>\n</p><p>C#, Python, ML, Unity3D, VR/AR, guitar, snowboarding</p>",
           "_tags": [
             "Theme"
           ],
@@ -258,51 +258,7 @@
             "paddingBottom": 1,
             "bgColor": "#ffffff"
           },
-          "title": "My job",
-          "meta": "October 2015<br>",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "header3",
-          "_anchor": "header3-t"
-        },
-        {
-          "_params": {
-            "paddingTop": "0",
-            "paddingBottom": 1,
-            "bgColor": "#fff"
-          },
-          "text": "<p>\n</p><p><a href=\"http://eventagrate.com\" target=\"_blank\" class=\"text-danger\"><span style=\"font-style: normal;\">eventagrate.com</span></a></p>",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "content1",
-          "_styles": {
-            "P": {
-              "font-size": "32px"
-            }
-          },
-          "_anchor": "content1-u"
-        },
-        {
-          "_styles": {
-            ".mbr-section-title, .mbr-section-subtitle": {
-              "text-align": "center"
-            },
-            ".mbr-section-title": {
-              "text-align": "left"
-            },
-            ".mbr-section-subtitle": {
-              "text-align": "left"
-            }
-          },
-          "_params": {
-            "showMeta": false,
-            "paddingTop": 1,
-            "paddingBottom": 1,
-            "bgColor": "#ffffff"
-          },
-          "title": "My location",
+          "title": "Location",
           "meta": "October 2015<br>",
           "_tags": [
             "Theme"
@@ -443,7 +399,7 @@
             "paddingBottom": "2",
             "bgColor": "#fff"
           },
-          "title": "<span style=\"font-weight: normal;\">[research] Speech Recognition</span>",
+          "title": "<span style=\"font-weight: normal;\">Speech Recognition</span>",
           "meta": "Feb-May 2018",
           "_tags": [
             "Theme"
@@ -499,7 +455,7 @@
             }
           },
           "title": "DeepSpeech for Russian language",
-          "text": "<p>Trained DeepSpeech speech-to-text system was applied to speech search task in big collection of video files. Implemented search service allows to jump to a particular moment in video where requested text is being spoken.</p><p>Technologies used: Deep Neural Networks, TensorFlow, Python, Flask</p>",
+          "text": "<p>Trained DeepSpeech speech-to-text system was applied to speech search task in big collection of video files. Implemented search service allows to jump to a particular moment in video where requested text is being spoken (<a href=\"http://ceur-ws.org/Vol-2267/470-474-paper-90.pdf\" target=\"_blank\">paper1</a>, <a href=\"http://ceur-ws.org/Vol-2267/475-479-paper-91.pdf\" target=\"_blank\">paper2</a>).</p><p>Technologies used: Deep Neural Networks, TensorFlow, Python, Flask</p>",
           "_tags": [
             "Theme"
           ],
@@ -526,7 +482,7 @@
             "bgColor": "#fff"
           },
           "title": "<span style=\"font-weight: normal;\">Projects at <a href=\"http://eventagrate.com\" target=\"_blank\" class=\"text-danger\">EventAgratE</a>:</span>",
-          "meta": "2017",
+          "meta": "2017-2018",
           "_tags": [
             "Theme"
           ],
