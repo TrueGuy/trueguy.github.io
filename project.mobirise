@@ -28,7 +28,7 @@
       ]
     },
     "versionFirst": "3.12.1",
-    "uniqCompNum": 62,
+    "uniqCompNum": 63,
     "versionPublish": "4.8.10",
     "path": "@PROJECT_PATH@",
     "screenshot": "screenshot.png",
@@ -345,7 +345,7 @@
           "_params": {
             "logo": true,
             "showBrand": true,
-            "hideButtons": false,
+            "hideButtons": true,
             "sticky": false,
             "collapsed": true,
             "transparent": true,
@@ -519,6 +519,56 @@
             },
             "video": {
               "active": true,
+              "src": "https://vimeo.com/325625947",
+              "aspectratio": "4:3",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box4",
+              "link": "",
+              "size": 250
+            }
+          },
+          "title": "Warehouse Game",
+          "text": "<p>Technologies used: Unity, iPad, LAN networking</p>",
+          "_tags": [
+            "Theme"
+          ],
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>",
+          "_name": "msg-box4",
+          "_anchor": "msg-box4-1q"
+        },
+        {
+          "_inherit": "msg-box5",
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false,
+            "inverse": true,
+            "imageSize": "35",
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#F2F2F2",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#fff",
+            "overlayOpacity": 0.5
+          },
+          "media": {
+            "image": {
+              "width": 1400,
+              "src": "@THEME_PATH@/components/_images/gallery/desktop.jpg"
+            },
+            "video": {
+              "active": true,
               "src": "https://vimeo.com/248557196",
               "aspectratio": "4:3",
               "autoplay": false,
@@ -531,7 +581,7 @@
             }
           },
           "title": "Interactive Drums",
-          "text": "<p>Technologies used: Unity3d, Arduino, LAN networking</p>",
+          "text": "<p>Technologies used: Unity, Arduino, LAN networking</p>",
           "_tags": [
             "Theme"
           ],
@@ -581,7 +631,7 @@
             }
           },
           "title": "Kinect Splash Paint",
-          "text": "<p>Technologies used: Unity3d, Kinect</p>View Eventagrate Product: <a href=\"http://eventagrate.com/portrait_splash/\" target=\"_blank\">Portrait Splash</a><br><p><br></p>",
+          "text": "<p>Technologies used: Unity, Kinect</p>View Eventagrate Product: <a href=\"http://eventagrate.com/portrait_splash/\" target=\"_blank\">Portrait Splash</a><br><p><br></p>",
           "_tags": [
             "Theme"
           ],
@@ -681,7 +731,7 @@
             }
           },
           "title": "Happy Skeletons",
-          "text": "<p>Technologies used: Unity3D, Kinect</p>",
+          "text": "<p>Technologies used: Unity, Kinect</p>",
           "_tags": [
             "Theme"
           ],
@@ -919,7 +969,7 @@
             }
           },
           "title": "DropboxSync <br>Unity3D Asset",
-          "text": "DropboxSync solves problem of updating application content without creating a new build. Constant tracking of  Dropbox file changes allows to gracefully update content even at runtime.<br><br>Technologies used: Dropbox API, Unity3D<br>",
+          "text": "DropboxSync solves problem of updating application content without creating a new build. Constant tracking of  Dropbox file changes allows to gracefully update content even at runtime.<br><br>Technologies used: Dropbox API, Unity<br>",
           "_tags": [
             "Theme"
           ],
@@ -1089,7 +1139,7 @@
             }
           },
           "title": "UNIVERSITY CAMPUS 3D MAP",
-          "text": "Mobile 3D map of PM-PU campus in Saint Petersburg State University. Features class room search, 3d map overview, shedule of classes and going from schedule right to location on map.<br><br>Technologies used: Unity3D",
+          "text": "Mobile 3D map of PM-PU campus in Saint Petersburg State University. Features class room search, 3d map overview, shedule of classes and going from schedule right to location on map.<br><br>Technologies used: Unity",
           "_tags": [
             "Theme"
           ],
@@ -1170,7 +1220,7 @@
             }
           },
           "title": "SPACE JOURNEY",
-          "text": "Space runner mobile game for iOS and Android. With levels, coins, landing on planets, wormholes and aliens,<br><br>Technologies used: Unity3D<br>",
+          "text": "Space runner mobile game for iOS and Android. With levels, coins, landing on planets, wormholes and aliens,<br><br>Technologies used: Unity<br>",
           "_tags": [
             "Theme"
           ],
@@ -1295,7 +1345,7 @@
           "_params": {
             "logo": true,
             "showBrand": true,
-            "hideButtons": false,
+            "hideButtons": true,
             "sticky": false,
             "collapsed": true,
             "transparent": true,
@@ -1646,7 +1696,7 @@
           "_params": {
             "logo": true,
             "showBrand": true,
-            "hideButtons": false,
+            "hideButtons": true,
             "sticky": false,
             "collapsed": true,
             "transparent": true,
