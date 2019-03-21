@@ -531,7 +531,7 @@
             }
           },
           "title": "Warehouse Game",
-          "text": "<p>Technologies used: Unity, iPad, LAN networking</p>",
+          "text": "<p>Two players control forklifts to clean up the warehouse. Be productive to win.</p><p><span style=\"font-size: 1.07rem;\">Technologies used: Unity, iPad, LAN networking</span><br></p>",
           "_tags": [
             "Theme"
           ],
@@ -581,7 +581,7 @@
             }
           },
           "title": "Interactive Drums",
-          "text": "<p>Technologies used: Unity, Arduino, LAN networking</p>",
+          "text": "<p>Feel the beat, show your drumming skills and win a car!</p><p>Technologies used: Unity, Arduino, LAN networking</p>",
           "_tags": [
             "Theme"
           ],
@@ -631,7 +631,7 @@
             }
           },
           "title": "Kinect Splash Paint",
-          "text": "<p>Technologies used: Unity, Kinect</p>View Eventagrate Product: <a href=\"http://eventagrate.com/portrait_splash/\" target=\"_blank\">Portrait Splash</a><br><p><br></p>",
+          "text": "<p>Create your artistic self-portrait by waving your hands!</p><p>Technologies used: Unity, Kinect</p>View Eventagrate Product: <a href=\"http://eventagrate.com/portrait_splash/\" target=\"_blank\">Portrait Splash</a><br><p><br></p>",
           "_tags": [
             "Theme"
           ],
@@ -680,8 +680,8 @@
               "size": 250
             }
           },
-          "title": "VR Table",
-          "text": "<p>Technologies used: Unreal Engine, LAN Multiplayer, HTC Vive</p><br><p>View Eventagrate Product:&nbsp;<a href=\"http://eventagrate.com/vr_table/\" target=\"_blank\">VR Table</a></p>",
+          "title": "Save Dubai VR Multiplayer Game",
+          "text": "<p>Fight UFOs together with your friends and save the city from space invaders!&nbsp;</p><p>Technologies used: Unreal Engine 4, LAN Multiplayer, HTC Vive</p><p>View Eventagrate Product:&nbsp;<a href=\"http://eventagrate.com/vr_table/\" target=\"_blank\">VR Table</a></p>",
           "_tags": [
             "Theme"
           ],
@@ -731,7 +731,7 @@
             }
           },
           "title": "Happy Skeletons",
-          "text": "<p>Technologies used: Unity, Kinect</p>",
+          "text": "<p>Skeletons + Smiles</p><p>Technologies used: Unity, Kinect</p>",
           "_tags": [
             "Theme"
           ],
@@ -781,7 +781,7 @@
             }
           },
           "title": "AR / VR Research",
-          "text": "<p>Technologies used: AR Kit, AR Core, Optitrack, HTC Vive Trackers</p>",
+          "text": "<p><span style=\"font-size: 1.07rem;\">AR Kit, AR Core, Optitrack, HTC Vive Trackers</span><br></p>",
           "_tags": [
             "Theme"
           ],
@@ -861,7 +861,7 @@
             }
           },
           "title": "HTC Vive VR play kiosk control system",
-          "text": "<p>Technologies used: Steam API, .NET, NancyFX, AngularJS</p>",
+          "text": "<p><span style=\"font-size: 1.07rem;\">Technologies used: Steam API, .NET, NancyFX, AngularJS</span><br></p>",
           "_tags": [
             "Theme"
           ],
