@@ -28,17 +28,14 @@
       ]
     },
     "versionFirst": "3.12.1",
-    "uniqCompNum": 63,
-    "versionPublish": "4.8.10",
+    "uniqCompNum": 62,
+    "versionPublish": "4.7.7",
     "path": "@PROJECT_PATH@",
     "screenshot": "screenshot.png",
     "favicon": "",
     "noImageResize": "",
     "google-analytics": "<!-- Global site tag (gtag.js) - Google Analytics -->\r\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-112324097-1\"></script>\r\n<script>\r\n  window.dataLayer = window.dataLayer || [];\r\n  function gtag(){dataLayer.push(arguments);}\r\n  gtag('js', new Date());\r\n\r\n  gtag('config', 'UA-112324097-1');\r\n</script>",
-    "siteFonts": [],
-    "publishType": "github",
-    "gitHubName": "georgefedoseev",
-    "gitHubPath": ""
+    "siteFonts": []
   },
   "pages": {
     "page1": {
@@ -217,7 +214,7 @@
             "paddingBottom": 1,
             "bgColor": "#ffffff"
           },
-          "title": "Skills and interests",
+          "title": "My skills and interests",
           "meta": "October 2015<br>",
           "_tags": [
             "Theme"
@@ -231,7 +228,7 @@
             "paddingBottom": 1,
             "bgColor": "#fff"
           },
-          "text": "<p>\n</p><p>C#, Python, ML, Unity3D, VR/AR, guitar, snowboarding</p>",
+          "text": "<p>\n</p><p>AI, Python, Unity3D, VR/AR, C#, guitar, snowboarding</p>",
           "_tags": [
             "Theme"
           ],
@@ -261,7 +258,51 @@
             "paddingBottom": 1,
             "bgColor": "#ffffff"
           },
-          "title": "Location",
+          "title": "My job",
+          "meta": "October 2015<br>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-t"
+        },
+        {
+          "_params": {
+            "paddingTop": "0",
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "text": "<p>\n</p><p><a href=\"http://eventagrate.com\" target=\"_blank\" class=\"text-danger\"><span style=\"font-style: normal;\">eventagrate.com</span></a></p>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content1",
+          "_styles": {
+            "P": {
+              "font-size": "32px"
+            }
+          },
+          "_anchor": "content1-u"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            },
+            ".mbr-section-title": {
+              "text-align": "left"
+            },
+            ".mbr-section-subtitle": {
+              "text-align": "left"
+            }
+          },
+          "_params": {
+            "showMeta": false,
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#ffffff"
+          },
+          "title": "My location",
           "meta": "October 2015<br>",
           "_tags": [
             "Theme"
@@ -348,7 +389,7 @@
           "_params": {
             "logo": true,
             "showBrand": true,
-            "hideButtons": true,
+            "hideButtons": false,
             "sticky": false,
             "collapsed": true,
             "transparent": true,
@@ -402,7 +443,7 @@
             "paddingBottom": "2",
             "bgColor": "#fff"
           },
-          "title": "<span style=\"font-weight: normal;\">Speech Recognition</span>",
+          "title": "<span style=\"font-weight: normal;\">[research] Speech Recognition</span>",
           "meta": "Feb-May 2018",
           "_tags": [
             "Theme"
@@ -458,7 +499,7 @@
             }
           },
           "title": "DeepSpeech for Russian language",
-          "text": "<p>Trained DeepSpeech speech-to-text system was applied to speech search task in big collection of video files. Implemented search service allows to jump to a particular moment in video where requested text is being spoken (<a href=\"http://ceur-ws.org/Vol-2267/470-474-paper-90.pdf\" target=\"_blank\">paper1</a>, <a href=\"http://ceur-ws.org/Vol-2267/475-479-paper-91.pdf\" target=\"_blank\">paper2</a>).</p><p>Technologies used: Deep Neural Networks, TensorFlow, Python, Flask</p>",
+          "text": "<p>Trained DeepSpeech speech-to-text system was applied to speech search task in big collection of video files. Implemented search service allows to jump to a particular moment in video where requested text is being spoken.</p><p>Technologies used: Deep Neural Networks, TensorFlow, Python, Flask</p>",
           "_tags": [
             "Theme"
           ],
@@ -485,62 +526,12 @@
             "bgColor": "#fff"
           },
           "title": "<span style=\"font-weight: normal;\">Projects at <a href=\"http://eventagrate.com\" target=\"_blank\" class=\"text-danger\">EventAgratE</a>:</span>",
-          "meta": "2017-2018",
+          "meta": "2017",
           "_tags": [
             "Theme"
           ],
           "_name": "header3",
           "_anchor": "header3-y"
-        },
-        {
-          "_inherit": "msg-box5",
-          "_params": {
-            "showTitle": true,
-            "showText": true,
-            "showButtons": false,
-            "inverse": true,
-            "imageSize": "35",
-            "paddingTop": "1",
-            "paddingBottom": "1",
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "parallax": true,
-            "bgColorRadio": true,
-            "bgColor": "#F2F2F2",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": false,
-            "overlayColor": "#fff",
-            "overlayOpacity": 0.5
-          },
-          "media": {
-            "image": {
-              "width": 1400,
-              "src": "@THEME_PATH@/components/_images/gallery/desktop.jpg"
-            },
-            "video": {
-              "active": true,
-              "src": "https://vimeo.com/325625947",
-              "aspectratio": "4:3",
-              "autoplay": false,
-              "loop": false
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-msg-box4",
-              "link": "",
-              "size": 250
-            }
-          },
-          "title": "Warehouse Game",
-          "text": "<p>Two players control forklifts to clean up the warehouse. Be productive to win.</p><p><span style=\"font-size: 1.07rem;\">Technologies used: Unity, iPad, LAN networking</span><br></p>",
-          "_tags": [
-            "Theme"
-          ],
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>",
-          "_name": "msg-box4",
-          "_anchor": "msg-box4-1q"
         },
         {
           "_inherit": "msg-box5",
@@ -584,7 +575,7 @@
             }
           },
           "title": "Interactive Drums",
-          "text": "<p>Feel the beat, show your drumming skills and win a car!</p><p>Technologies used: Unity, Arduino, LAN networking</p>",
+          "text": "<p>Technologies used: Unity3d, Arduino, LAN networking</p>",
           "_tags": [
             "Theme"
           ],
@@ -634,7 +625,7 @@
             }
           },
           "title": "Kinect Splash Paint",
-          "text": "<p>Create your artistic self-portrait by waving your hands!</p><p>Technologies used: Unity, Kinect</p>View Eventagrate Product: <a href=\"http://eventagrate.com/portrait_splash/\" target=\"_blank\">Portrait Splash</a><br><p><br></p>",
+          "text": "<p>Technologies used: Unity3d, Kinect</p>View Eventagrate Product: <a href=\"http://eventagrate.com/portrait_splash/\" target=\"_blank\">Portrait Splash</a><br><p><br></p>",
           "_tags": [
             "Theme"
           ],
@@ -683,8 +674,8 @@
               "size": 250
             }
           },
-          "title": "Save Dubai VR Multiplayer Game",
-          "text": "<p>Fight UFOs together with your friends and save the city from space invaders!&nbsp;</p><p>Technologies used: Unreal Engine 4, LAN Multiplayer, HTC Vive</p><p>View Eventagrate Product:&nbsp;<a href=\"http://eventagrate.com/vr_table/\" target=\"_blank\">VR Table</a></p>",
+          "title": "VR Table",
+          "text": "<p>Technologies used: Unreal Engine, LAN Multiplayer, HTC Vive</p><br><p>View Eventagrate Product:&nbsp;<a href=\"http://eventagrate.com/vr_table/\" target=\"_blank\">VR Table</a></p>",
           "_tags": [
             "Theme"
           ],
@@ -734,7 +725,7 @@
             }
           },
           "title": "Happy Skeletons",
-          "text": "<p>Skeletons + Smiles</p><p>Technologies used: Unity, Kinect</p>",
+          "text": "<p>Technologies used: Unity3D, Kinect</p>",
           "_tags": [
             "Theme"
           ],
@@ -784,7 +775,7 @@
             }
           },
           "title": "AR / VR Research",
-          "text": "<p><span style=\"font-size: 1.07rem;\">AR Kit, AR Core, Optitrack, HTC Vive Trackers</span><br></p>",
+          "text": "<p>Technologies used: AR Kit, AR Core, Optitrack, HTC Vive Trackers</p>",
           "_tags": [
             "Theme"
           ],
@@ -864,7 +855,7 @@
             }
           },
           "title": "HTC Vive VR play kiosk control system",
-          "text": "<p><span style=\"font-size: 1.07rem;\">Technologies used: Steam API, .NET, NancyFX, AngularJS</span><br></p>",
+          "text": "<p>Technologies used: Steam API, .NET, NancyFX, AngularJS</p>",
           "_tags": [
             "Theme"
           ],
@@ -972,7 +963,7 @@
             }
           },
           "title": "DropboxSync <br>Unity3D Asset",
-          "text": "DropboxSync solves problem of updating application content without creating a new build. Constant tracking of  Dropbox file changes allows to gracefully update content even at runtime.<br><br>Technologies used: Dropbox API, Unity<br>",
+          "text": "DropboxSync solves problem of updating application content without creating a new build. Constant tracking of  Dropbox file changes allows to gracefully update content even at runtime.<br><br>Technologies used: Dropbox API, Unity3D<br>",
           "_tags": [
             "Theme"
           ],
@@ -1142,7 +1133,7 @@
             }
           },
           "title": "UNIVERSITY CAMPUS 3D MAP",
-          "text": "Mobile 3D map of PM-PU campus in Saint Petersburg State University. Features class room search, 3d map overview, shedule of classes and going from schedule right to location on map.<br><br>Technologies used: Unity",
+          "text": "Mobile 3D map of PM-PU campus in Saint Petersburg State University. Features class room search, 3d map overview, shedule of classes and going from schedule right to location on map.<br><br>Technologies used: Unity3D",
           "_tags": [
             "Theme"
           ],
@@ -1223,7 +1214,7 @@
             }
           },
           "title": "SPACE JOURNEY",
-          "text": "Space runner mobile game for iOS and Android. With levels, coins, landing on planets, wormholes and aliens,<br><br>Technologies used: Unity<br>",
+          "text": "Space runner mobile game for iOS and Android. With levels, coins, landing on planets, wormholes and aliens,<br><br>Technologies used: Unity3D<br>",
           "_tags": [
             "Theme"
           ],
@@ -1348,7 +1339,7 @@
           "_params": {
             "logo": true,
             "showBrand": true,
-            "hideButtons": true,
+            "hideButtons": false,
             "sticky": false,
             "collapsed": true,
             "transparent": true,
@@ -1699,7 +1690,7 @@
           "_params": {
             "logo": true,
             "showBrand": true,
-            "hideButtons": true,
+            "hideButtons": false,
             "sticky": false,
             "collapsed": true,
             "transparent": true,
