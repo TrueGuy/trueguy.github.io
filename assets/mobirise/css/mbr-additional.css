@@ -491,19 +491,6 @@ h6,
 #content1-s P {
   font-size: 32px;
 }
-#header3-t .mbr-section-title,
-#header3-t .mbr-section-subtitle {
-  text-align: center;
-}
-#header3-t .mbr-section-title {
-  text-align: left;
-}
-#header3-t .mbr-section-subtitle {
-  text-align: left;
-}
-#content1-u P {
-  font-size: 32px;
-}
 #header3-v .mbr-section-title,
 #header3-v .mbr-section-subtitle {
   text-align: center;
