@@ -28,17 +28,14 @@
       ]
     },
     "versionFirst": "3.12.1",
-    "uniqCompNum": 63,
+    "uniqCompNum": 67,
     "versionPublish": "4.8.10",
     "path": "@PROJECT_PATH@",
     "screenshot": "screenshot.png",
     "favicon": "",
     "noImageResize": "",
     "google-analytics": "<!-- Global site tag (gtag.js) - Google Analytics -->\r\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-112324097-1\"></script>\r\n<script>\r\n  window.dataLayer = window.dataLayer || [];\r\n  function gtag(){dataLayer.push(arguments);}\r\n  gtag('js', new Date());\r\n\r\n  gtag('config', 'UA-112324097-1');\r\n</script>",
-    "siteFonts": [],
-    "publishType": "github",
-    "gitHubName": "georgefedoseev",
-    "gitHubPath": ""
+    "siteFonts": []
   },
   "pages": {
     "page1": {
@@ -200,36 +197,45 @@
       },
       "components": [
         {
-          "_styles": {
-            ".mbr-section-title, .mbr-section-subtitle": {
-              "text-align": "center"
-            },
-            ".mbr-section-title": {
-              "text-align": "left"
-            },
-            ".mbr-section-subtitle": {
-              "text-align": "left"
-            }
-          },
           "_params": {
-            "showMeta": false,
-            "paddingTop": "6",
-            "paddingBottom": 1,
-            "bgColor": "#ffffff"
+            "showTitle": true,
+            "showText": false,
+            "showButtons": true,
+            "inverse": false,
+            "paddingTop": "4",
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#ffffff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
           },
           "title": "Skills and interests",
-          "meta": "October 2015<br>",
+          "text": "Create awesome mobile-friendly websites. No coding and free.",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"http://georgefedoseev.com/GEORGE_FEDOSEEV_CV.pdf\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\"><span class=\"mbrib-download mbr-iconfont mbr-iconfont-btn\"></span>DOWNLOAD CV</a>",
           "_tags": [
             "Theme"
           ],
-          "_name": "header3",
-          "_anchor": "header3-r"
+          "_name": "msg-box1",
+          "_anchor": "msg-box1-1u",
+          "_styles": {
+            ".btn": {
+              "font-size": "12px"
+            }
+          }
         },
         {
           "_params": {
-            "paddingTop": "0",
+            "paddingTop": "1",
             "paddingBottom": 1,
-            "bgColor": "#fff"
+            "bgColor": "#ffffff"
           },
           "text": "<p>\n</p><p>C#, Python, ML, Unity3D, VR/AR, guitar, snowboarding</p>",
           "_tags": [
@@ -341,6 +347,10 @@
             },
             ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
               "color": "#fc5500!important"
+            },
+            ".btn SPAN": {
+              "font-family": "'Open Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700"
             }
           },
           "_name": "ext.menu",
@@ -348,7 +358,7 @@
           "_params": {
             "logo": true,
             "showBrand": true,
-            "hideButtons": false,
+            "hideButtons": true,
             "sticky": false,
             "collapsed": true,
             "transparent": true,
@@ -382,7 +392,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption text-black\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">&nbsp; George Fedoseev<br></a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"http://georgefedoseev.com/GEORGE_FEDOSEEV_CV.pdf\" target=\"_blank\">DOWNLOAD CV</a></li>"
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"http://georgefedoseev.com/GEORGE_FEDOSEEV_CV.pdf\" target=\"_blank\"><span class=\"mobi-mbri mobi-mbri-download mbr-iconfont mbr-iconfont-btn\"></span>DOWNLOAD CV</a></li>"
         },
         {
           "_styles": {
@@ -1341,14 +1351,18 @@
               "color": "@primaryColor"
             },
             ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
-              "color": "#faaf40!important"
+              "color": "#fc5500!important"
+            },
+            ".btn SPAN": {
+              "font-family": "'Open Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700"
             }
           },
           "_name": "ext.menu",
           "_params": {
             "logo": true,
             "showBrand": true,
-            "hideButtons": false,
+            "hideButtons": true,
             "sticky": false,
             "collapsed": true,
             "transparent": true,
@@ -1382,7 +1396,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption text-black\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">&nbsp; George Fedoseev<br></a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"http://georgefedoseev.com/GEORGE_FEDOSEEV_CV.pdf\" target=\"_blank\">DOWNLOAD CV</a></li>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"http://georgefedoseev.com/GEORGE_FEDOSEEV_CV.pdf\" target=\"_blank\"><span class=\"mobi-mbri mobi-mbri-download mbr-iconfont mbr-iconfont-btn\"></span>DOWNLOAD CV</a></li>",
           "_anchor": "ext_menu-1b"
         },
         {
@@ -1693,13 +1707,17 @@
             },
             ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
               "color": "#fc5500!important"
+            },
+            ".btn SPAN": {
+              "font-family": "'Open Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700"
             }
           },
           "_name": "ext.menu",
           "_params": {
             "logo": true,
             "showBrand": true,
-            "hideButtons": false,
+            "hideButtons": true,
             "sticky": false,
             "collapsed": true,
             "transparent": true,
@@ -1733,7 +1751,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption text-black\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">&nbsp; George Fedoseev<br></a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"http://georgefedoseev.com/GEORGE_FEDOSEEV_CV.pdf\" target=\"_blank\">DOWNLOAD CV</a></li>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"http://georgefedoseev.com/GEORGE_FEDOSEEV_CV.pdf\" target=\"_blank\"><span class=\"mobi-mbri mobi-mbri-download mbr-iconfont mbr-iconfont-btn\"></span>DOWNLOAD CV</a></li>",
           "_anchor": "ext_menu-19"
         },
         {
