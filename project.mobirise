@@ -493,7 +493,7 @@
               "active": true,
               "src": "https://vimeo.com/272967618",
               "aspectratio": "4:3",
-              "autoplay": "on",
+              "autoplay": false,
               "loop": "on"
             },
             "iconFont": {
