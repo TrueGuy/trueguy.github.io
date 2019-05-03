@@ -371,7 +371,7 @@
           "_tags": [
             "Theme"
           ],
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-black\" href=\"https://assetstore.unity.com/packages/tools/integration/unsplash-explorer-search-and-download-photos-from-unsplash-144996\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">SEE ON THE ASSET STORE</a>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://assetstore.unity.com/packages/tools/integration/unsplash-explorer-search-and-download-photos-from-unsplash-144996\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">SEE ON THE ASSET STORE</a>",
           "_name": "msg-box4",
           "_anchor": "msg-box4-1v"
         },
@@ -424,7 +424,7 @@
           "_tags": [
             "Theme"
           ],
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-info\" href=\"https://assetstore.unity.com/packages/tools/integration/dropboxsync-120529\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">SEE ON THE ASSET STORE</a>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://assetstore.unity.com/packages/tools/integration/dropboxsync-120529\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">SEE ON THE ASSET STORE</a>",
           "_name": "msg-box4",
           "_anchor": "msg-box4-20"
         },
