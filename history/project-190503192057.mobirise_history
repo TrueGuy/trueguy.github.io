@@ -29,7 +29,7 @@
     },
     "versionFirst": "3.12.1",
     "uniqCompNum": 73,
-    "versionPublish": "4.9.7",
+    "versionPublish": "4.8.10",
     "path": "@PROJECT_PATH@",
     "screenshot": "screenshot.png",
     "favicon": "",
@@ -411,7 +411,7 @@
               "active": true
             },
             "video": {
-              "src": "https://vimeo.com/277768365",
+              "src": "https://www.youtube.com/watch?v=m1culq_E0Lw",
               "aspectratio": "4:3",
               "autoplay": false,
               "loop": false
