@@ -566,6 +566,20 @@ h6,
 #msg-box6-o .lead p {
   color: #fff;
 }
+#header3-21 .mbr-section-title,
+#header3-21 .mbr-section-subtitle {
+  text-align: center;
+}
+#header3-21 .mbr-section-title {
+  text-align: left;
+}
+#header3-21 .mbr-section-subtitle {
+  text-align: left;
+}
+#msg-box6-22 .mbr-section-title,
+#msg-box6-22 .lead p {
+  color: #fff;
+}
 #header3-i .mbr-section-title,
 #header3-i .mbr-section-subtitle {
   text-align: center;
