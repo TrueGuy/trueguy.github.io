@@ -35,7 +35,11 @@
     "favicon": "",
     "noImageResize": "",
     "google-analytics": "<!-- Global site tag (gtag.js) - Google Analytics -->\r\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-112324097-1\"></script>\r\n<script>\r\n  window.dataLayer = window.dataLayer || [];\r\n  function gtag(){dataLayer.push(arguments);}\r\n  gtag('js', new Date());\r\n\r\n  gtag('config', 'UA-112324097-1');\r\n</script>",
-    "siteFonts": []
+    "siteFonts": [],
+    "publishType": "local",
+    "gitHubName": "GeorgeFedoseev",
+    "gitHubPath": "",
+    "publishPath": "file:///Users/gosha/Projects/georgefedoseev.github.io"
   },
   "pages": {
     "index.html": {
@@ -404,14 +408,14 @@
               "src": "@PROJECT_PATH@/assets/images/dropboxsync_fb-1200x630.png",
               "link": "",
               "alt": "",
-              "title": ""
+              "title": "",
+              "active": true
             },
             "video": {
-              "src": "https://vimeo.com/345349800",
+              "src": "https://vimeo.com/277768365",
               "aspectratio": "4:3",
               "autoplay": false,
-              "loop": false,
-              "active": true
+              "loop": false
             },
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-msg-box4",
@@ -560,8 +564,8 @@
               "linkInNewWindow": false
             },
             "video": {
-              "src": "https://www.youtube.com/watch?v=z7GNgnGj0jg",
-              "aspectratio": "16:9",
+              "src": "https://www.youtube.com/watch?v=kcc2WA6hSGw",
+              "aspectratio": "4:3",
               "autoplay": false,
               "loop": false,
               "active": true
@@ -573,7 +577,7 @@
             }
           },
           "title": "3 THINGS TO DO",
-          "text": "iOS and WatchOS application for day planning with 3 tasks for every day. Synchronizes between Apple devices and reminds about planned tasks. More information <a href=\"http://georgefedoseev.com/3thingstodo/\" target=\"_blank\">here</a>.<br><br>Technologies used: Swift, Realm, iCloud<br>",
+          "text": "iOS and WatchOS application for day planning with 3 tasks for every day. Synchronizes between Apple devices and reminds about planned tasks. More information <a href=\"http://georgefedoseev.com/3thingstodo/\" target=\"_blank\">here</a>.<br><br>Technologies used: Apple Swift, Realm, iCloud<br>",
           "_tags": [
             "Theme"
           ],
