@@ -24,19 +24,22 @@
         "#3e3e3e",
         "#fc5500",
         "#00aeec",
-        "#007ee5",
-        "#414141"
+        "#007ee5"
       ]
     },
     "versionFirst": "3.12.1",
-    "uniqCompNum": 76,
+    "uniqCompNum": 75,
     "versionPublish": "4.9.7",
     "path": "@PROJECT_PATH@",
     "screenshot": "screenshot.png",
     "favicon": "",
     "noImageResize": "",
     "google-analytics": "<!-- Global site tag (gtag.js) - Google Analytics -->\r\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-112324097-1\"></script>\r\n<script>\r\n  window.dataLayer = window.dataLayer || [];\r\n  function gtag(){dataLayer.push(arguments);}\r\n  gtag('js', new Date());\r\n\r\n  gtag('config', 'UA-112324097-1');\r\n</script>",
-    "siteFonts": []
+    "siteFonts": [],
+    "publishType": "local",
+    "gitHubName": "GeorgeFedoseev",
+    "gitHubPath": "",
+    "publishPath": "file:///Users/gosha/Projects/georgefedoseev.github.io"
   },
   "pages": {
     "index.html": {
@@ -50,41 +53,13 @@
       },
       "components": [
         {
-          "_styles": {
-            ".mbr-section-title, .mbr-section-subtitle": {
-              "text-align": "center"
-            },
-            ".mbr-section-title": {
-              "color": "#00aeec",
-              "text-align": "left"
-            },
-            ".mbr-section-title SPAN": {
-              "color": "#3e3e3e",
-              "font-size": "60px"
-            }
-          },
           "_params": {
-            "showMeta": false,
-            "paddingTop": "6",
-            "paddingBottom": "2",
-            "bgColor": "#fff"
-          },
-          "title": "<span style=\"font-weight: normal;\">Doing</span> #interactive #ai #productivity #connected #unity #fun #mobile #vr&nbsp;<span style=\"font-weight: normal;\">apps</span>",
-          "meta": "By John Smith posted July 20, 2016",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "header3",
-          "_anchor": "header3-23"
-        },
-        {
-          "_params": {
-            "showTitle": false,
+            "showTitle": true,
             "showText": false,
             "showButtons": true,
             "inverse": false,
-            "paddingTop": "0",
-            "paddingBottom": "0",
+            "paddingTop": "4",
+            "paddingBottom": "1",
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "parallax": true,
@@ -99,7 +74,7 @@
             "overlayOpacity": 0.5
           },
           "title": "Skills and interests",
-          "text": "",
+          "text": "Create awesome mobile-friendly websites. No coding and free.",
           "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"http://georgefedoseev.com/GEORGE_FEDOSEEV_CV.pdf\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\"><span class=\"mbrib-download mbr-iconfont mbr-iconfont-btn\"></span>DOWNLOAD CV</a>",
           "_tags": [
             "Theme"
@@ -109,16 +84,68 @@
           "_styles": {
             ".btn": {
               "font-size": "12px"
+            }
+          }
+        },
+        {
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": 1,
+            "bgColor": "#ffffff"
+          },
+          "text": "<p>\n</p><p>C#, Python, ML, Unity3D, VR/AR, guitar, snowboarding</p>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content1",
+          "_styles": {
+            "P": {
+              "font-size": "32px"
+            }
+          },
+          "_anchor": "content1-s"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
             },
-            "H2": {
-              "color": "#00aeec",
-              "font-size": "30px",
-              "text-align": "left",
-              "font-family": "'Roboto', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700"
+            ".mbr-section-title": {
+              "text-align": "left"
             },
-            "B": {
-              "color": "#007ee5"
+            ".mbr-section-subtitle": {
+              "text-align": "left"
+            }
+          },
+          "_params": {
+            "showMeta": false,
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#ffffff"
+          },
+          "title": "Location",
+          "meta": "October 2015<br>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-v"
+        },
+        {
+          "_params": {
+            "paddingTop": "0",
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "text": "<p>\n</p><p>St. Petersburg, Russia</p>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content1",
+          "_anchor": "content1-q",
+          "_styles": {
+            "P": {
+              "font-size": "32px"
             }
           }
         },
@@ -212,9 +239,7 @@
             },
             ".navbar-caption": {
               "color": "#ffffff",
-              "font-size": "25px",
-              "font-family": "'Roboto', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700"
+              "font-size": "25px"
             },
             ".navbar-toggler": {
               "color": "#ffffff"
@@ -1093,7 +1118,7 @@
             "paddingTop": "2",
             "paddingBottom": "2",
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/cloudy-sky-4f4811ade0045-hires-2000x1333.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/cloudy-sky-4f4811ade0045_hires-2000x1333.jpg",
             "parallax": true,
             "bgColorRadio": false,
             "bgColor": "#000000",
@@ -1108,7 +1133,7 @@
           "media": {
             "image": {
               "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/ez-game-300x533.jpg",
+              "src": "@PROJECT_PATH@/assets/images/ez_game-300x533.jpg",
               "link": "",
               "alt": "",
               "title": "",

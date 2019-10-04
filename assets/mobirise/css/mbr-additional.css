@@ -6,6 +6,8 @@
 
 
 
+
+
 body,
 input,
 textarea,
@@ -413,24 +415,29 @@ h6,
 .mbr-gallery-filter li:hover {
   color: #fc5500;
 }
+#header3-23 .mbr-section-title,
+#header3-23 .mbr-section-subtitle {
+  text-align: center;
+}
+#header3-23 .mbr-section-title {
+  color: #00aeec;
+  text-align: left;
+}
+#header3-23 .mbr-section-title SPAN {
+  color: #3e3e3e;
+  font-size: 60px;
+}
 #msg-box1-1u .btn {
   font-size: 12px;
 }
-#content1-s P {
-  font-size: 32px;
-}
-#header3-v .mbr-section-title,
-#header3-v .mbr-section-subtitle {
-  text-align: center;
-}
-#header3-v .mbr-section-title {
+#msg-box1-1u H2 {
+  color: #00aeec;
+  font-size: 30px;
   text-align: left;
+  font-family: 'Roboto', sans-serif;
 }
-#header3-v .mbr-section-subtitle {
-  text-align: left;
-}
-#content1-q P {
-  font-size: 32px;
+#msg-box1-1u B {
+  color: #007ee5;
 }
 #header3-1w .mbr-section-title,
 #header3-1w .mbr-section-subtitle {
@@ -448,6 +455,7 @@ h6,
 #ext_menu-e .navbar-caption {
   color: #ffffff;
   font-size: 25px;
+  font-family: 'Roboto', sans-serif;
 }
 #ext_menu-e .navbar-toggler {
   color: #ffffff;

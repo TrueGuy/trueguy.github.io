@@ -36,7 +36,11 @@
     "favicon": "",
     "noImageResize": "",
     "google-analytics": "<!-- Global site tag (gtag.js) - Google Analytics -->\r\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-112324097-1\"></script>\r\n<script>\r\n  window.dataLayer = window.dataLayer || [];\r\n  function gtag(){dataLayer.push(arguments);}\r\n  gtag('js', new Date());\r\n\r\n  gtag('config', 'UA-112324097-1');\r\n</script>",
-    "siteFonts": []
+    "siteFonts": [],
+    "publishType": "local",
+    "gitHubName": "GeorgeFedoseev",
+    "gitHubPath": "",
+    "publishPath": "file:///Users/gosha/Projects/georgefedoseev.github.io"
   },
   "pages": {
     "index.html": {
@@ -50,41 +54,13 @@
       },
       "components": [
         {
-          "_styles": {
-            ".mbr-section-title, .mbr-section-subtitle": {
-              "text-align": "center"
-            },
-            ".mbr-section-title": {
-              "color": "#00aeec",
-              "text-align": "left"
-            },
-            ".mbr-section-title SPAN": {
-              "color": "#3e3e3e",
-              "font-size": "60px"
-            }
-          },
-          "_params": {
-            "showMeta": false,
-            "paddingTop": "6",
-            "paddingBottom": "2",
-            "bgColor": "#fff"
-          },
-          "title": "<span style=\"font-weight: normal;\">Doing</span> #interactive #ai #productivity #connected #unity #fun #mobile #vr&nbsp;<span style=\"font-weight: normal;\">apps</span>",
-          "meta": "By John Smith posted July 20, 2016",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "header3",
-          "_anchor": "header3-23"
-        },
-        {
           "_params": {
             "showTitle": false,
             "showText": false,
             "showButtons": true,
             "inverse": false,
-            "paddingTop": "0",
-            "paddingBottom": "0",
+            "paddingTop": "3",
+            "paddingBottom": "2",
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "parallax": true,
@@ -121,6 +97,34 @@
               "color": "#007ee5"
             }
           }
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            },
+            ".mbr-section-title": {
+              "color": "#00aeec",
+              "text-align": "left"
+            },
+            ".mbr-section-title SPAN": {
+              "color": "#3e3e3e",
+              "font-size": "60px"
+            }
+          },
+          "_params": {
+            "showMeta": false,
+            "paddingTop": 1,
+            "paddingBottom": "4",
+            "bgColor": "#fff"
+          },
+          "title": "<span style=\"font-weight: normal;\">Doing</span> #interactive #ai #productivity #connected #unity #fun #mobile #vr&nbsp;<span style=\"font-weight: normal;\">apps</span>",
+          "meta": "By John Smith posted July 20, 2016",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-23"
         },
         {
           "_styles": {
@@ -1093,7 +1097,7 @@
             "paddingTop": "2",
             "paddingBottom": "2",
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/cloudy-sky-4f4811ade0045-hires-2000x1333.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/cloudy-sky-4f4811ade0045_hires-2000x1333.jpg",
             "parallax": true,
             "bgColorRadio": false,
             "bgColor": "#000000",
@@ -1108,7 +1112,7 @@
           "media": {
             "image": {
               "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/ez-game-300x533.jpg",
+              "src": "@PROJECT_PATH@/assets/images/ez_game-300x533.jpg",
               "link": "",
               "alt": "",
               "title": "",
