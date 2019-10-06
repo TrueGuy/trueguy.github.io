@@ -602,6 +602,16 @@ h6,
 #msg-box6-j .lead p {
   color: #fff;
 }
+#msg-box6-28 .mbr-section-title,
+#msg-box6-28 .lead p {
+  color: #fff;
+}
+#msg-box6-28 P {
+  text-align: left;
+}
+#msg-box6-28 H3 {
+  text-align: left;
+}
 #header3-w .mbr-section-title,
 #header3-w .mbr-section-subtitle {
   text-align: center;
