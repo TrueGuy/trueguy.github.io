@@ -30,13 +30,17 @@
     },
     "versionFirst": "3.12.1",
     "uniqCompNum": 81,
-    "versionPublish": "4.10.15",
+    "versionPublish": "4.9.7",
     "path": "@PROJECT_PATH@",
     "screenshot": "screenshot.png",
     "favicon": "",
     "noImageResize": "",
     "google-analytics": "<!-- Global site tag (gtag.js) - Google Analytics -->\r\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-112324097-1\"></script>\r\n<script>\r\n  window.dataLayer = window.dataLayer || [];\r\n  function gtag(){dataLayer.push(arguments);}\r\n  gtag('js', new Date());\r\n\r\n  gtag('config', 'UA-112324097-1');\r\n</script>",
-    "siteFonts": []
+    "siteFonts": [],
+    "publishType": "local",
+    "gitHubName": "GeorgeFedoseev",
+    "gitHubPath": "",
+    "publishPath": "file:///Users/gosha/Projects/georgefedoseev.github.io"
   },
   "pages": {
     "index.html": {
@@ -1093,7 +1097,7 @@
             "paddingTop": "2",
             "paddingBottom": "2",
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/cloudy-sky-4f4811ade0045-hires-2000x1333.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/cloudy-sky-4f4811ade0045_hires-2000x1333.jpg",
             "parallax": true,
             "bgColorRadio": false,
             "bgColor": "#000000",
@@ -1108,7 +1112,7 @@
           "media": {
             "image": {
               "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/ez-game-300x533.jpg",
+              "src": "@PROJECT_PATH@/assets/images/ez_game-300x533.jpg",
               "link": "",
               "alt": "",
               "title": "",
