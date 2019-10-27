@@ -8,10 +8,10 @@
       "styling": {
         "primaryColor": "#fc5500",
         "secondaryColor": "#bfcecb",
-        "successColor": "#90a878",
+        "successColor": "#131313",
         "infoColor": "#007ee5",
         "warningColor": "#f3c649",
-        "dangerColor": "#000000",
+        "dangerColor": "#efefef",
         "titleFont": "Roboto",
         "subtitleFont": "Roboto",
         "textFont": "Roboto",
@@ -21,6 +21,8 @@
         "isRtl": false
       },
       "additionalSetColors": [
+        "#131313",
+        "#232323",
         "#3e3e3e",
         "#fc5500",
         "#00aeec",
@@ -29,7 +31,7 @@
       ]
     },
     "versionFirst": "3.12.1",
-    "uniqCompNum": 81,
+    "uniqCompNum": 84,
     "versionPublish": "4.10.15",
     "path": "@PROJECT_PATH@",
     "screenshot": "screenshot.png",
@@ -84,7 +86,7 @@
             "showButtons": true,
             "inverse": false,
             "paddingTop": "0",
-            "paddingBottom": "2",
+            "paddingBottom": "1",
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "parallax": true,
@@ -100,7 +102,7 @@
           },
           "title": "Skills and interests",
           "text": "",
-          "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"http://georgefedoseev.com/GEORGE_FEDOSEEV_CV.pdf\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\"><span class=\"mbrib-download mbr-iconfont mbr-iconfont-btn\"></span>DOWNLOAD CV</a>",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"http://georgefedoseev.com/GEORGE_FEDOSEEV_CV.pdf\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\"><span class=\"mbrib-download mbr-iconfont mbr-iconfont-btn\"></span>DOWNLOAD CV</a> <a data-app-btn=\"true\" class=\"btn btn-info\" href=\"mailto:george.fedoseev@me.com\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\"><span class=\"mbri-paper-plane mbr-iconfont mbr-iconfont-btn\" style=\"color: rgb(255, 255, 255);\"></span>E-MAIL</a>",
           "_tags": [
             "Theme"
           ],
@@ -108,7 +110,7 @@
           "_anchor": "msg-box1-1u",
           "_styles": {
             ".btn": {
-              "font-size": "12px"
+              "font-size": "10px"
             },
             "H2": {
               "color": "#00aeec",
@@ -121,6 +123,128 @@
               "color": "#007ee5"
             }
           }
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "inverse": true,
+            "imageSize": "34",
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#83a7bd",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#fff",
+            "overlayOpacity": 0.5
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/hairbrush-to-website-620x1167.png",
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box5",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title": "Hair Brush for iOS<br><br><span style=\"font-weight: normal;\">Try on different hair colors in real-time on your device.</span>",
+          "text": "<b>Hair coloring app</b> for iOS.<br>In collaboration with&nbsp;<a href=\"http://hairbrush.ai/\" target=\"_blank\" class=\"text-danger\">Daniil Pakhomov and&nbsp;Vasily Polonsky</a>.<br><br>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-success\" href=\"https://apps.apple.com/us/app/hair-brush/id1431556539\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">DOWNLOAD</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box5",
+          "_anchor": "msg-box5-2a",
+          "_styles": {
+            "H3": {
+              "color": "#ffffff"
+            },
+            "P": {
+              "color": "#efefef"
+            },
+            ".btn": {
+              "font-size": "15px"
+            }
+          }
+        },
+        {
+          "_inherit": "msg-box5",
+          "_styles": {
+            ".mbr-section-title, .lead p": {
+              "color": "#fff"
+            }
+          },
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "inverse": true,
+            "imageSize": "53",
+            "paddingTop": "2",
+            "paddingBottom": "2",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/coffe-with-kate-2000x1333.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#131313",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#000000",
+            "overlayOpacity": "0.7"
+          },
+          "media": {
+            "image": {
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/iphone5c-blue-angle1-1400x773.png",
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "src": "https://www.youtube.com/watch?v=z7GNgnGj0jg",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false,
+              "active": true
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box5",
+              "link": "",
+              "size": 250
+            }
+          },
+          "title": "3 THINGS TO DO",
+          "text": "iOS and WatchOS application for day planning with 3 tasks for every day. Synchronizes between Apple devices and reminds about planned tasks. More information <a href=\"http://georgefedoseev.com/3thingstodo/\" target=\"_blank\">here</a>.<br><br>Technologies used: Swift, Realm, iCloud<br>",
+          "_tags": [
+            "Theme"
+          ],
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"http://georgefedoseev.com/3thingstodo/\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">CHECK IT OUT</a>",
+          "_name": "msg-box6",
+          "_anchor": "msg-box6-m"
         },
         {
           "_styles": {
@@ -147,6 +271,59 @@
           ],
           "_name": "header3",
           "_anchor": "header3-1w"
+        },
+        {
+          "_inherit": "msg-box5",
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "inverse": true,
+            "imageSize": "50",
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#ffffff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#fff",
+            "overlayOpacity": 0.5
+          },
+          "media": {
+            "image": {
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/dropboxsync_fb-1200x630.png",
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "video": {
+              "src": "https://vimeo.com/345349800",
+              "aspectratio": "4:3",
+              "autoplay": false,
+              "loop": false,
+              "active": true
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box4",
+              "link": "",
+              "size": 250
+            }
+          },
+          "title": "DropboxSync for Unity3D",
+          "text": "DropboxSync solves problem of updating application content without creating a new build. Constant tracking of Dropbox file changes allows to gracefully update content even at runtime.",
+          "_tags": [
+            "Theme"
+          ],
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://assetstore.unity.com/packages/tools/integration/dropboxsync-120529\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">SEE ON THE ASSET STORE</a>",
+          "_name": "msg-box4",
+          "_anchor": "msg-box4-20"
         },
         {
           "_inherit": "msg-box5",
@@ -355,59 +532,6 @@
           "_anchor": "msg-box4-1v"
         },
         {
-          "_inherit": "msg-box5",
-          "_params": {
-            "showTitle": false,
-            "showText": true,
-            "showButtons": true,
-            "inverse": true,
-            "imageSize": "50",
-            "paddingTop": "1",
-            "paddingBottom": "1",
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "parallax": true,
-            "bgColorRadio": true,
-            "bgColor": "#ffffff",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": false,
-            "overlayColor": "#fff",
-            "overlayOpacity": 0.5
-          },
-          "media": {
-            "image": {
-              "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/dropboxsync_fb-1200x630.png",
-              "link": "",
-              "alt": "",
-              "title": ""
-            },
-            "video": {
-              "src": "https://vimeo.com/345349800",
-              "aspectratio": "4:3",
-              "autoplay": false,
-              "loop": false,
-              "active": true
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-msg-box4",
-              "link": "",
-              "size": 250
-            }
-          },
-          "title": "DropboxSync&nbsp;",
-          "text": "DropboxSync solves problem of updating application content without creating a new build. Constant tracking of Dropbox file changes allows to gracefully update content even at runtime.",
-          "_tags": [
-            "Theme"
-          ],
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://assetstore.unity.com/packages/tools/integration/dropboxsync-120529\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">SEE ON THE ASSET STORE</a>",
-          "_name": "msg-box4",
-          "_anchor": "msg-box4-20"
-        },
-        {
           "_styles": {
             ".mbr-section-title, .mbr-section-subtitle": {
               "text-align": "center"
@@ -502,65 +626,6 @@
           }
         },
         {
-          "_inherit": "msg-box5",
-          "_styles": {
-            ".mbr-section-title, .lead p": {
-              "color": "#fff"
-            }
-          },
-          "_params": {
-            "showTitle": true,
-            "showText": true,
-            "showButtons": true,
-            "inverse": true,
-            "imageSize": "53",
-            "paddingTop": "2",
-            "paddingBottom": "2",
-            "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/coffe-with-kate-2000x1333.jpg",
-            "parallax": false,
-            "bgColorRadio": false,
-            "bgColor": "#fff",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": true,
-            "overlayColor": "#000000",
-            "overlayOpacity": "0.7"
-          },
-          "media": {
-            "image": {
-              "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/iphone5c-blue-angle1-1400x773.png",
-              "link": "",
-              "alt": "",
-              "title": "",
-              "linkInNewWindow": false
-            },
-            "video": {
-              "src": "https://www.youtube.com/watch?v=z7GNgnGj0jg",
-              "aspectratio": "16:9",
-              "autoplay": false,
-              "loop": false,
-              "active": true
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-msg-box5",
-              "link": "",
-              "size": 250
-            }
-          },
-          "title": "3 THINGS TO DO",
-          "text": "iOS and WatchOS application for day planning with 3 tasks for every day. Synchronizes between Apple devices and reminds about planned tasks. More information <a href=\"http://georgefedoseev.com/3thingstodo/\" target=\"_blank\">here</a>.<br><br>Technologies used: Swift, Realm, iCloud<br>",
-          "_tags": [
-            "Theme"
-          ],
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"http://georgefedoseev.com/3thingstodo/\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">CHECK IT OUT</a>",
-          "_name": "msg-box6",
-          "_anchor": "msg-box6-m"
-        },
-        {
           "_styles": {
             ".mbr-section-title, .mbr-section-subtitle": {
               "text-align": "center"
@@ -578,7 +643,7 @@
             "paddingBottom": "2",
             "bgColor": "#fff"
           },
-          "title": "<span style=\"font-weight: normal;\">Projects at <a href=\"http://eventagrate.com\" target=\"_blank\" class=\"text-danger\">EventAgratE</a>:</span>",
+          "title": "<span style=\"font-weight: normal;\">Projects at <a href=\"http://eventagrate.com\" target=\"_blank\" class=\"text-primary\">EventAgratE</a>:</span>",
           "meta": "2017-2018",
           "_tags": [
             "Theme"
@@ -628,7 +693,7 @@
             }
           },
           "title": "Warehouse Game",
-          "text": "<p>Two players control forklifts to clean up the warehouse. Be productive to win.</p><p><span style=\"font-size: 1.07rem;\">Technologies used: Unity, iPad, LAN networking</span><br></p>",
+          "text": "<p>Two players control forklifts to clean up the warehouse. Be productive to win.<br><span style=\"font-size: 1.07rem;\">Technologies used: Unity, iPad, LAN networking</span></p>",
           "_tags": [
             "Theme"
           ],
@@ -678,7 +743,7 @@
             }
           },
           "title": "Interactive Drums",
-          "text": "<p>Feel the beat, show your drumming skills and win a car!</p><p>Technologies used: Unity, Arduino, LAN networking</p>",
+          "text": "<p>Feel the beat, show your drumming skills and win a car!<br><span style=\"font-size: 1.07rem;\">Technologies used: Unity, Arduino, LAN networking</span></p>",
           "_tags": [
             "Theme"
           ],
@@ -728,7 +793,7 @@
             }
           },
           "title": "Kinect Splash Paint",
-          "text": "<p>Create your artistic self-portrait by waving your hands!</p><p>Technologies used: Unity, Kinect</p>View Eventagrate Product: <a href=\"http://eventagrate.com/portrait_splash/\" target=\"_blank\">Portrait Splash</a><br><p><br></p>",
+          "text": "<p>Create your artistic self-portrait by waving your hands!&nbsp;<br><span style=\"font-size: 1.07rem;\">Technologies used: Unity, Kinect</span></p>",
           "_tags": [
             "Theme"
           ],
@@ -778,7 +843,7 @@
             }
           },
           "title": "Save Dubai VR Multiplayer Game",
-          "text": "<p>Fight UFOs together with your friends and save the city from space invaders!&nbsp;</p><p>Technologies used: Unreal Engine 4, LAN Multiplayer, HTC Vive</p><p>View Eventagrate Product:&nbsp;<a href=\"http://eventagrate.com/vr_table/\" target=\"_blank\">VR Table</a></p>",
+          "text": "<p>Fight UFOs together with your friends and save the city from space invaders!<br><span style=\"font-size: 1.07rem;\">Technologies used: Unreal Engine 4, LAN Multiplayer, HTC Vive</span><br></p>",
           "_tags": [
             "Theme"
           ],
@@ -828,7 +893,7 @@
             }
           },
           "title": "Happy Skeletons",
-          "text": "<p>Skeletons + Smiles</p><p>Technologies used: Unity, Kinect</p>",
+          "text": "<p>Skeletons + Smiles<br><span style=\"font-size: 1.07rem;\">Technologies used: Unity, Kinect</span></p>",
           "_tags": [
             "Theme"
           ],
@@ -904,7 +969,7 @@
             "paddingBottom": "2",
             "bgColor": "#fff"
           },
-          "title": "<span style=\"font-weight: normal;\">Projects at <a href=\"http://spheravr.com/\" target=\"_blank\" class=\"text-danger\">SpheraVR</a>:</span>",
+          "title": "<span style=\"font-weight: normal;\">Projects at <a href=\"http://spheravr.com/\" target=\"_blank\" class=\"text-primary\">SpheraVR</a>:</span>",
           "meta": "2016",
           "_tags": [
             "Theme"
@@ -984,7 +1049,7 @@
             "paddingBottom": 1,
             "bgColor": "#ffffff"
           },
-          "title": "<a href=\"http://pm-map.ru\" target=\"_blank\" class=\"text-danger\">pm-map.ru</a>",
+          "title": "<a href=\"http://pm-map.ru\" target=\"_blank\" class=\"text-primary\">pm-map.ru</a>",
           "meta": "April 2016<br>",
           "_tags": [
             "Theme"
@@ -1279,54 +1344,6 @@
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>",
           "_name": "msg-box6",
           "_anchor": "msg-box6-28"
-        },
-        {
-          "_styles": {
-            ".mbr-section-title, .mbr-section-subtitle": {
-              "text-align": "center"
-            },
-            ".mbr-section-title": {
-              "text-align": "left",
-              "color": "#000000"
-            },
-            ".mbr-section-subtitle": {
-              "text-align": "left"
-            }
-          },
-          "_params": {
-            "showMeta": false,
-            "paddingTop": "7",
-            "paddingBottom": 1,
-            "bgColor": "#ffffff"
-          },
-          "title": "E-mail",
-          "meta": "October 2015<br>",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "header3",
-          "_anchor": "header3-w"
-        },
-        {
-          "_params": {
-            "paddingTop": "0",
-            "paddingBottom": "7",
-            "bgColor": "#ffffff"
-          },
-          "text": "<p>\n</p><p><a href=\"mailto:george.fedoseev@me.com\">george.fedoseev@me.com</a></p>",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "content1",
-          "_styles": {
-            "P": {
-              "font-size": "24px",
-              "color": "#000000",
-              "font-family": "'Roboto', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700"
-            }
-          },
-          "_anchor": "content1-x"
         }
       ]
     }
