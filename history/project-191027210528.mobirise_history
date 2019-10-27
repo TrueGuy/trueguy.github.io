@@ -7,27 +7,27 @@
       "title": "Mobirise 3",
       "styling": {
         "primaryColor": "#fc5500",
-        "secondaryColor": "#161616",
-        "successColor": "#f28281",
+        "secondaryColor": "#bfcecb",
+        "successColor": "#131313",
         "infoColor": "#007ee5",
-        "warningColor": "#0b0b0b",
+        "warningColor": "#f3c649",
         "dangerColor": "#efefef",
         "titleFont": "Roboto",
         "subtitleFont": "Roboto",
         "textFont": "Roboto",
-        "isRoundedButtons": true,
+        "isRoundedButtons": false,
         "isAnimatedOnScroll": false,
         "isScrollToTopButton": true,
         "isRtl": false
       },
       "additionalSetColors": [
-        "#161616",
-        "#0b0b0b",
-        "#bfcecb",
         "#131313",
         "#232323",
         "#3e3e3e",
-        "#fc5500"
+        "#fc5500",
+        "#00aeec",
+        "#007ee5",
+        "#414141"
       ]
     },
     "versionFirst": "3.12.1",
@@ -38,7 +38,11 @@
     "favicon": "",
     "noImageResize": "",
     "google-analytics": "<!-- Global site tag (gtag.js) - Google Analytics -->\r\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-112324097-1\"></script>\r\n<script>\r\n  window.dataLayer = window.dataLayer || [];\r\n  function gtag(){dataLayer.push(arguments);}\r\n  gtag('js', new Date());\r\n\r\n  gtag('config', 'UA-112324097-1');\r\n</script>",
-    "siteFonts": []
+    "siteFonts": [],
+    "publishType": "local",
+    "gitHubName": "GeorgeFedoseev",
+    "gitHubPath": "",
+    "publishPath": "file:///Users/gosha/Projects/georgefedoseev.github.io"
   },
   "pages": {
     "index.html": {
@@ -150,7 +154,7 @@
             "image": {
               "active": true,
               "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/hairbrush-to-website-620x1167.png",
+              "src": "@PROJECT_PATH@assets/images/hairbrush_to_website-620x1167.png",
               "link": "",
               "alt": "",
               "title": ""
@@ -167,9 +171,9 @@
               "size": 0
             }
           },
-          "title": "HairBrush <span style=\"font-weight: normal;\">for iOS</span><br><br><span style=\"font-weight: normal;\">Try on different hair colors in real-time on your device.</span>",
-          "text": "<b>Hair coloring app</b> for iOS.<br>In collaboration with&nbsp;<a href=\"http://hairbrush.ai/\" target=\"_blank\" class=\"text-danger\">Daniil Pakhomov</a>.<br><br>",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-black\" href=\"https://apps.apple.com/us/app/hair-brush/id1431556539\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">DOWNLOAD</a>",
+          "title": "Hair Brush for iOS<br><br><span style=\"font-weight: normal;\">Try on different hair colors in real-time on your device.</span>",
+          "text": "<b>Hair coloring app</b> for iOS.<br>In collaboration with&nbsp;<a href=\"http://hairbrush.ai/\" target=\"_blank\" class=\"text-danger\">Daniil Pakhomov and&nbsp;Vasily Polonsky</a>.<br><br>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-success\" href=\"https://apps.apple.com/us/app/hair-brush/id1431556539\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">DOWNLOAD</a>",
           "_tags": [
             "Theme"
           ],
@@ -177,8 +181,7 @@
           "_anchor": "msg-box5-2a",
           "_styles": {
             "H3": {
-              "color": "#ffffff",
-              "text-align": "left"
+              "color": "#ffffff"
             },
             "P": {
               "color": "#efefef"
@@ -1159,7 +1162,7 @@
             "paddingTop": "2",
             "paddingBottom": "2",
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/cloudy-sky-4f4811ade0045-hires-2000x1333.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/cloudy-sky-4f4811ade0045_hires-2000x1333.jpg",
             "parallax": true,
             "bgColorRadio": false,
             "bgColor": "#000000",
@@ -1174,7 +1177,7 @@
           "media": {
             "image": {
               "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/ez-game-300x533.jpg",
+              "src": "@PROJECT_PATH@/assets/images/ez_game-300x533.jpg",
               "link": "",
               "alt": "",
               "title": "",
