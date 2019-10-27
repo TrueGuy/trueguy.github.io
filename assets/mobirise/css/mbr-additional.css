@@ -459,6 +459,9 @@ h6,
 #msg-box6-m .lead p {
   color: #fff;
 }
+#msg-box6-m .btn {
+  font-size: 15px;
+}
 #header3-1w .mbr-section-title,
 #header3-1w .mbr-section-subtitle {
   text-align: center;

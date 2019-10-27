@@ -38,7 +38,11 @@
     "favicon": "",
     "noImageResize": "",
     "google-analytics": "<!-- Global site tag (gtag.js) - Google Analytics -->\r\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-112324097-1\"></script>\r\n<script>\r\n  window.dataLayer = window.dataLayer || [];\r\n  function gtag(){dataLayer.push(arguments);}\r\n  gtag('js', new Date());\r\n\r\n  gtag('config', 'UA-112324097-1');\r\n</script>",
-    "siteFonts": []
+    "siteFonts": [],
+    "publishType": "local",
+    "gitHubName": "GeorgeFedoseev",
+    "gitHubPath": "",
+    "publishPath": "file:///Users/gosha/Projects/georgefedoseev.github.io"
   },
   "pages": {
     "index.html": {
@@ -102,7 +106,7 @@
           },
           "title": "Skills and interests",
           "text": "",
-          "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"http://georgefedoseev.com/GEORGE_FEDOSEEV_CV.pdf\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\"><span class=\"mbrib-download mbr-iconfont mbr-iconfont-btn\"></span>DOWNLOAD CV</a> <a data-app-btn=\"true\" class=\"btn btn-info\" href=\"mailto:george.fedoseev@me.com\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\"><span class=\"mbri-paper-plane mbr-iconfont mbr-iconfont-btn\" style=\"color: rgb(255, 255, 255);\"></span>E-MAIL ME!</a>",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"http://georgefedoseev.com/GEORGE_FEDOSEEV_CV.pdf\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\"><span class=\"mbrib-download mbr-iconfont mbr-iconfont-btn\"></span>DOWNLOAD CV</a> <a data-app-btn=\"true\" class=\"btn btn-info\" href=\"mailto:george.fedoseev@me.com\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\"><span class=\"mbri-paper-plane mbr-iconfont mbr-iconfont-btn\" style=\"color: rgb(255, 255, 255);\"></span>E-MAIL</a>",
           "_tags": [
             "Theme"
           ],
@@ -150,7 +154,7 @@
             "image": {
               "active": true,
               "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/hairbrush-to-website-1-620x1167.png",
+              "src": "@PROJECT_PATH@assets/images/hairbrush_to_website-620x1167.png",
               "link": "",
               "alt": "",
               "title": ""
@@ -169,7 +173,7 @@
           },
           "title": "HairBrush <span style=\"font-weight: normal;\">for iOS</span><br><br><span style=\"font-weight: normal;\">Try on different hair colors in real-time on your device.</span>",
           "text": "<b>Hair coloring app</b> for iOS.<br>In collaboration with&nbsp;<a href=\"http://hairbrush.ai/\" target=\"_blank\" class=\"text-danger\">Daniil Pakhomov</a>.<br><br>",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://apps.apple.com/us/app/hair-brush/id1431556539\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">DOWNLOAD</a>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-black\" href=\"https://apps.apple.com/us/app/hair-brush/id1431556539\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">DOWNLOAD</a>",
           "_tags": [
             "Theme"
           ],
@@ -193,9 +197,6 @@
           "_styles": {
             ".mbr-section-title, .lead p": {
               "color": "#fff"
-            },
-            ".btn": {
-              "font-size": "15px"
             }
           },
           "_params": {
@@ -246,7 +247,7 @@
           "_tags": [
             "Theme"
           ],
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://apps.apple.com/app/3-things-to-do-be-productive/id1172464312\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">BUY $3.99</a>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"http://georgefedoseev.com/3thingstodo/\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">CHECK IT OUT</a>",
           "_name": "msg-box6",
           "_anchor": "msg-box6-m"
         },
@@ -263,13 +264,13 @@
             }
           },
           "_params": {
-            "showMeta": false,
+            "showMeta": true,
             "paddingTop": "3",
             "paddingBottom": "0",
             "bgColor": "#fff"
           },
           "title": "<span style=\"font-weight: normal;\">Unity Assets</span>",
-          "meta": "",
+          "meta": "2018 - 2019",
           "_tags": [
             "Theme"
           ],
@@ -1162,7 +1163,7 @@
             "paddingTop": "2",
             "paddingBottom": "2",
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/cloudy-sky-4f4811ade0045-hires-2000x1333.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/cloudy-sky-4f4811ade0045_hires-2000x1333.jpg",
             "parallax": true,
             "bgColorRadio": false,
             "bgColor": "#000000",
@@ -1177,7 +1178,7 @@
           "media": {
             "image": {
               "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/ez-game-300x533.jpg",
+              "src": "@PROJECT_PATH@/assets/images/ez_game-300x533.jpg",
               "link": "",
               "alt": "",
               "title": "",
