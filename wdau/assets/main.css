@@ -1,0 +1,116 @@
+  /* latin */
+  @font-face {
+	font-family: 'Baloo Bhai';
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+	src: local('Baloo Bhai Regular'), local('BalooBhai-Regular'), url("./fonts/BalooBhai-Regular.woff2") format('woff2');
+	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+  
+
+* {
+	font-family: 'Baloo Bhai', Arial, Helvetica, sans-serif;
+}
+
+html, body, #root {
+	background-color: black;
+	margin: 0;
+	height: 100%;
+}
+
+
+.main {	
+	min-height: 100%;
+	box-sizing: border-box;
+
+    padding: 16px;
+    text-align: center;
+	vertical-align: middle;
+	background: url("./img/dog_bg3.jpg");
+	background-size: 100%;		
+}
+
+.logo {
+	position: absolute;
+	/* box-sizing: border-box; */
+	/* overflow: hidden; */
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	
+	background: url("./img/wdau-logo.png");
+	background-repeat: no-repeat;
+	background-position: center 10vh;
+	/* margin: 0 auto; */
+}
+
+
+.status-text {
+    font-size: 35px;    
+}
+
+.bottom-buttons {
+	position: sticky;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+.bottom-buttons.fixed {
+	position: fixed;
+} 
+
+
+
+.bottom-buttons button {
+	width: 100%;
+	box-sizing: border-box;
+	background-color: rgb(36, 36, 36);    
+    color: white;
+	font-size: 40px;	
+	border: none;
+	display: block;
+	margin: 0;
+}
+.bottom-buttons button.light {
+	background-color: rgb(66, 66, 66);  
+}
+
+
+/* .header {
+	position: sticky;
+	top: 0px;
+	display: block;
+	width: 100%;
+	height: 70px;
+	background-color: yellow;
+	z-index: 999;
+} */
+
+/* button.back-button {
+	
+	background: url(/assets/img/back.png);
+    border: none;
+    width: 50px;
+    height: 50px;
+    background-repeat: no-repeat;
+    background-size: contain;
+	display: block;
+} */
+
+.breed-info {
+	background: rgb(255, 240, 102);
+	padding: 10px;
+	font-size: 20px;
+	text-align: left;
+	box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+}
+
+.breed-info h2 {
+	text-align: center;
+	margin: 5px;
+}

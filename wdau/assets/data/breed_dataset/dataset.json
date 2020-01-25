@@ -1,0 +1,775 @@
+{
+    "version": "2.0",
+    "items": [
+        {
+            "imagePath": "assets/data/breed_dataset/beagle_marliese-streefland-2l0CWTpcChI-unsplash.jpg",
+            "landmarks": {
+                "Nose": {
+                    "x": 361.5819209039548,
+                    "y": 216.04519774011303
+                },
+                "LeftEye": {
+                    "x": 283.84180790960454,
+                    "y": 173.55932203389833
+                },
+                "RightEye": {
+                    "x": 451.97740112994353,
+                    "y": 164.51977401129946
+                },
+                "Left": {
+                    "x": 225.98870056497177,
+                    "y": 256.72316384180795
+                },
+                "Right": {
+                    "x": 522.4858757062148,
+                    "y": 244.06779661016952
+                },
+                "Top": {
+                    "x": 361.5819209039548,
+                    "y": 84.0677966101695
+                },
+                "Bottom": {
+                    "x": 382.37288135593224,
+                    "y": 437.51412429378536
+                }
+            },
+            "breed_id": "beagle"
+        },
+        {
+            "imagePath": "assets/data/breed_dataset/bichon-frise_cole-wyland-8NpsOCPgQqk-unsplash.jpg",
+            "landmarks": {
+                "Nose": {
+                    "x": 262.5853107344633,
+                    "y": 364.36723163841805
+                },
+                "LeftEye": {
+                    "x": 245.11977401129943,
+                    "y": 319.1977401129943
+                },
+                "RightEye": {
+                    "x": 313.7774011299435,
+                    "y": 348.1062146892655
+                },
+                "Left": {
+                    "x": 211.9954802259887,
+                    "y": 310.7661016949152
+                },
+                "Right": {
+                    "x": 331.2429378531073,
+                    "y": 382.43502824858757
+                },
+                "Top": {
+                    "x": 314.9819209039548,
+                    "y": 267.40338983050844
+                },
+                "Bottom": {
+                    "x": 241.50621468926553,
+                    "y": 418.57062146892656
+                }
+            },
+            "breed_id": "bichon-frise"
+        },
+        {
+            "imagePath": "assets/data/breed_dataset/border-collie_yoav-hornung-ulGabVbgA6s-unsplash.jpg",
+            "landmarks": {
+                "Nose": {
+                    "x": 240.90395480225988,
+                    "y": 301.7322033898305
+                },
+                "LeftEye": {
+                    "x": 208.3819209039548,
+                    "y": 255.96045197740114
+                },
+                "RightEye": {
+                    "x": 262.5853107344633,
+                    "y": 255.96045197740114
+                },
+                "Left": {
+                    "x": 177.064406779661,
+                    "y": 260.77853107344635
+                },
+                "Right": {
+                    "x": 290.2892655367232,
+                    "y": 269.8124293785311
+                },
+                "Top": {
+                    "x": 235.48361581920904,
+                    "y": 196.3367231638418
+                },
+                "Bottom": {
+                    "x": 237.29039548022598,
+                    "y": 364.96949152542373
+                }
+            },
+            "breed_id": "border-collie"
+        },
+        {
+            "imagePath": "assets/data/breed_dataset/bulldog_matt-odell--yWiUC-mqLw-unsplash.jpg",
+            "landmarks": {
+                "Nose": {
+                    "x": 335.3672316384181,
+                    "y": 201.58192090395482
+                },
+                "LeftEye": {
+                    "x": 244.06779661016952,
+                    "y": 164.51977401129946
+                },
+                "RightEye": {
+                    "x": 448.36158192090403,
+                    "y": 147.3446327683616
+                },
+                "Left": {
+                    "x": 177.17514124293788,
+                    "y": 232.31638418079098
+                },
+                "Right": {
+                    "x": 531.5254237288136,
+                    "y": 175.3672316384181
+                },
+                "Top": {
+                    "x": 342.5988700564972,
+                    "y": 9.039548022598872
+                },
+                "Bottom": {
+                    "x": 370.6214689265537,
+                    "y": 478.1920903954803
+                }
+            },
+            "breed_id": "bulldog"
+        },
+        {
+            "imagePath": "assets/data/breed_dataset/cockapoo_joe-caione-KVeogBZzl4M-unsplash.jpg",
+            "landmarks": {
+                "Nose": {
+                    "x": 400.45197740112997,
+                    "y": 298.30508474576277
+                },
+                "LeftEye": {
+                    "x": 367.0056497175142,
+                    "y": 241.35593220338987
+                },
+                "RightEye": {
+                    "x": 434.8022598870057,
+                    "y": 244.06779661016952
+                },
+                "Left": {
+                    "x": 313.6723163841808,
+                    "y": 273.8983050847458
+                },
+                "Right": {
+                    "x": 482.71186440677974,
+                    "y": 280.225988700565
+                },
+                "Top": {
+                    "x": 396.83615819209047,
+                    "y": 154.5762711864407
+                },
+                "Bottom": {
+                    "x": 400.45197740112997,
+                    "y": 370.6214689265537
+                }
+            },
+            "breed_id": "cockapoo"
+        },
+        {
+            "imagePath": "assets/data/breed_dataset/dingo_minh-pham-5cuH8xtwTHo-unsplash.jpg",
+            "landmarks": {
+                "Nose": {
+                    "x": 357.9661016949153,
+                    "y": 182.5988700564972
+                },
+                "LeftEye": {
+                    "x": 348.0225988700565,
+                    "y": 112.99435028248588
+                },
+                "RightEye": {
+                    "x": 398.6440677966102,
+                    "y": 127.45762711864408
+                },
+                "Left": {
+                    "x": 318.19209039548025,
+                    "y": 116.61016949152544
+                },
+                "Right": {
+                    "x": 430.28248587570624,
+                    "y": 154.5762711864407
+                },
+                "Top": {
+                    "x": 392.31638418079103,
+                    "y": 46.10169491525424
+                },
+                "Bottom": {
+                    "x": 352.54237288135596,
+                    "y": 199.77401129943505
+                }
+            },
+            "breed_id": "dingo"
+        },
+        {
+            "imagePath": "assets/data/breed_dataset/french-bulldog_illumination-marketing-k4mayDCN7PE-unsplash.jpg",
+            "landmarks": {
+                "Nose": {
+                    "x": 393.2203389830509,
+                    "y": 259.4350282485876
+                },
+                "LeftEye": {
+                    "x": 286.5536723163842,
+                    "y": 225.0847457627119
+                },
+                "RightEye": {
+                    "x": 491.7514124293786,
+                    "y": 219.66101694915258
+                },
+                "Left": {
+                    "x": 235.02824858757066,
+                    "y": 271.1864406779661
+                },
+                "Right": {
+                    "x": 538.7570621468927,
+                    "y": 257.6271186440678
+                },
+                "Top": {
+                    "x": 390.5084745762712,
+                    "y": 91.2994350282486
+                },
+                "Bottom": {
+                    "x": 396.83615819209047,
+                    "y": 407.6836158192091
+                }
+            },
+            "breed_id": "french-bulldog"
+        },
+        {
+            "imagePath": "assets/data/breed_dataset/golden-retriever_berkay-gumustekin-Crj3gU0aJsU-unsplash.jpg",
+            "landmarks": {
+                "Nose": {
+                    "x": 383.2768361581921,
+                    "y": 148.24858757062148
+                },
+                "LeftEye": {
+                    "x": 347.11864406779665,
+                    "y": 103.95480225988702
+                },
+                "RightEye": {
+                    "x": 420.3389830508475,
+                    "y": 98.5310734463277
+                },
+                "Left": {
+                    "x": 318.19209039548025,
+                    "y": 142.82485875706217
+                },
+                "Right": {
+                    "x": 451.07344632768365,
+                    "y": 145.53672316384183
+                },
+                "Top": {
+                    "x": 382.37288135593224,
+                    "y": 46.10169491525424
+                },
+                "Bottom": {
+                    "x": 383.2768361581921,
+                    "y": 237.7401129943503
+                }
+            },
+            "breed_id": "golden-retriever"
+        },
+        {
+            "imagePath": "assets/data/breed_dataset/golden-retriever_celine-sayuri-tagami-E48Dz9_54DY-unsplash.jpg",
+            "landmarks": {
+                "Nose": {
+                    "x": 222.2033898305085,
+                    "y": 369.6610169491526
+                },
+                "LeftEye": {
+                    "x": 165.7627118644068,
+                    "y": 325.42372881355936
+                },
+                "RightEye": {
+                    "x": 260.8474576271187,
+                    "y": 325.42372881355936
+                },
+                "Left": {
+                    "x": 134.23728813559325,
+                    "y": 374.2372881355933
+                },
+                "Right": {
+                    "x": 288.30508474576277,
+                    "y": 378.30508474576277
+                },
+                "Top": {
+                    "x": 211.01694915254242,
+                    "y": 266.94915254237293
+                },
+                "Bottom": {
+                    "x": 219.15254237288138,
+                    "y": 519.1525423728815
+                }
+            },
+            "breed_id": "golden-retriever"
+        },
+        {
+            "imagePath": "assets/data/breed_dataset/golden-retriever_john-price-wzRQfEw9CMc-unsplash.jpg",
+            "landmarks": {
+                "Nose": {
+                    "x": 298.30508474576277,
+                    "y": 201.58192090395482
+                },
+                "LeftEye": {
+                    "x": 224.18079096045201,
+                    "y": 158.19209039548025
+                },
+                "RightEye": {
+                    "x": 336.271186440678,
+                    "y": 136.49717514124296
+                },
+                "Left": {
+                    "x": 184.40677966101697,
+                    "y": 223.2768361581921
+                },
+                "Right": {
+                    "x": 385.0847457627119,
+                    "y": 195.2542372881356
+                },
+                "Top": {
+                    "x": 258.5310734463277,
+                    "y": 60.564971751412436
+                },
+                "Bottom": {
+                    "x": 319.0960451977401,
+                    "y": 362.48587570621476
+                }
+            },
+            "breed_id": "golden-retriever"
+        },
+        {
+            "imagePath": "assets/data/breed_dataset/golden-retriever_richard-brutyo-Sg3XwuEpybU-unsplash.jpg",
+            "landmarks": {
+                "Nose": {
+                    "x": 257.1593220338983,
+                    "y": 304.4271186440678
+                },
+                "LeftEye": {
+                    "x": 230.1491525423729,
+                    "y": 254.9084745762712
+                },
+                "RightEye": {
+                    "x": 284.7322033898305,
+                    "y": 258.28474576271185
+                },
+                "Left": {
+                    "x": 213.83050847457628,
+                    "y": 284.1694915254237
+                },
+                "Right": {
+                    "x": 292.04745762711866,
+                    "y": 286.42033898305084
+                },
+                "Top": {
+                    "x": 250.96949152542373,
+                    "y": 212.70508474576272
+                },
+                "Bottom": {
+                    "x": 258.28474576271185,
+                    "y": 348.31864406779664
+                }
+            },
+            "breed_id": "golden-retriever"
+        },
+        {
+            "imagePath": "assets/data/breed_dataset/japanese-spitz_sveta-golovina-TDVDhBQorjc-unsplash.jpg",
+            "landmarks": {
+                "Nose": {
+                    "x": 481.8079096045198,
+                    "y": 311.86440677966107
+                },
+                "LeftEye": {
+                    "x": 392.31638418079103,
+                    "y": 231.4124293785311
+                },
+                "RightEye": {
+                    "x": 505.3107344632769,
+                    "y": 221.46892655367233
+                },
+                "Left": {
+                    "x": 325.42372881355936,
+                    "y": 261.2429378531074
+                },
+                "Right": {
+                    "x": 559.5480225988701,
+                    "y": 260.3389830508475
+                },
+                "Top": {
+                    "x": 432.9943502824859,
+                    "y": 63.2768361581921
+                },
+                "Bottom": {
+                    "x": 474.57627118644075,
+                    "y": 423.0508474576272
+                }
+            },
+            "breed_id": "japanese-spitz"
+        },
+        {
+            "imagePath": "assets/data/breed_dataset/labrador-retriever_jonathan-daniels-CdVG9f96kyg-unsplash.jpg",
+            "landmarks": {
+                "Nose": {
+                    "x": 291.97740112994353,
+                    "y": 300.1129943502825
+                },
+                "LeftEye": {
+                    "x": 283.84180790960454,
+                    "y": 190.73446327683618
+                },
+                "RightEye": {
+                    "x": 404.9717514124294,
+                    "y": 229.60451977401132
+                },
+                "Left": {
+                    "x": 227.79661016949154,
+                    "y": 233.22033898305088
+                },
+                "Right": {
+                    "x": 422.1468926553673,
+                    "y": 319.0960451977401
+                },
+                "Top": {
+                    "x": 373.33333333333337,
+                    "y": 123.84180790960454
+                },
+                "Bottom": {
+                    "x": 261.2429378531074,
+                    "y": 427.5706214689266
+                }
+            },
+            "breed_id": "labrador-retriever"
+        },
+        {
+            "imagePath": "assets/data/breed_dataset/pitbull_mike-burke-gxyfJQg7Lno-unsplash.jpg",
+            "landmarks": {
+                "Nose": {
+                    "x": 396.83615819209047,
+                    "y": 295.5932203389831
+                },
+                "LeftEye": {
+                    "x": 320.00000000000006,
+                    "y": 202.4858757062147
+                },
+                "RightEye": {
+                    "x": 463.7288135593221,
+                    "y": 196.15819209039552
+                },
+                "Left": {
+                    "x": 271.1864406779661,
+                    "y": 243.16384180790962
+                },
+                "Right": {
+                    "x": 517.0621468926554,
+                    "y": 241.35593220338987
+                },
+                "Top": {
+                    "x": 386.89265536723167,
+                    "y": 80.45197740112995
+                },
+                "Bottom": {
+                    "x": 403.16384180790965,
+                    "y": 388.7005649717515
+                }
+            },
+            "breed_id": "pitbull"
+        },
+        {
+            "imagePath": "assets/data/breed_dataset/siberian-husky_jeremy-stenuit-QisRqkmc7RY-unsplash.jpg",
+            "landmarks": {
+                "Nose": {
+                    "x": 264.85875706214694,
+                    "y": 407.6836158192091
+                },
+                "LeftEye": {
+                    "x": 209.7175141242938,
+                    "y": 272.9943502824859
+                },
+                "RightEye": {
+                    "x": 329.0395480225989,
+                    "y": 272.9943502824859
+                },
+                "Left": {
+                    "x": 158.19209039548025,
+                    "y": 290.1694915254238
+                },
+                "Right": {
+                    "x": 377.8531073446328,
+                    "y": 301.92090395480227
+                },
+                "Top": {
+                    "x": 274.8022598870057,
+                    "y": 149.15254237288138
+                },
+                "Bottom": {
+                    "x": 265.7627118644068,
+                    "y": 536.949152542373
+                }
+            },
+            "breed_id": "siberian-husky"
+        },
+        {
+            "imagePath": "assets/data/breed_dataset/siberian-husky_luiza-sayfullina-jo9JRmZsvBg-unsplash.jpg",
+            "landmarks": {
+                "Nose": {
+                    "x": 183.43050847457627,
+                    "y": 443.1186440677966
+                },
+                "LeftEye": {
+                    "x": 164.88135593220338,
+                    "y": 388.15819209039546
+                },
+                "RightEye": {
+                    "x": 206.78870056497175,
+                    "y": 389.5322033898305
+                },
+                "Left": {
+                    "x": 129.84406779661018,
+                    "y": 397.08926553672313
+                },
+                "Right": {
+                    "x": 237.7039548022599,
+                    "y": 408.0813559322034
+                },
+                "Top": {
+                    "x": 190.98757062146893,
+                    "y": 329.07570621468926
+                },
+                "Bottom": {
+                    "x": 180.68248587570622,
+                    "y": 480.2169491525424
+                }
+            },
+            "breed_id": "siberian-husky"
+        },
+        {
+            "imagePath": "assets/data/breed_dataset/terrier_mia-anderson-P9p2MJLMqlo-unsplash.jpg",
+            "landmarks": {
+                "Nose": {
+                    "x": 462.8248587570622,
+                    "y": 301.0169491525424
+                },
+                "LeftEye": {
+                    "x": 361.5819209039548,
+                    "y": 158.19209039548025
+                },
+                "RightEye": {
+                    "x": 575.8192090395481,
+                    "y": 160.00000000000003
+                },
+                "Left": {
+                    "x": 262.14689265536725,
+                    "y": 188.02259887005653
+                },
+                "Right": {
+                    "x": 644.5197740112995,
+                    "y": 236.83615819209044
+                },
+                "Top": {
+                    "x": 473.6723163841809,
+                    "y": 2.7118644067796613
+                },
+                "Bottom": {
+                    "x": 452.88135593220346,
+                    "y": 462.8248587570622
+                }
+            },
+            "breed_id": "terrier"
+        },
+        {
+            "imagePath": "assets/data/breed_dataset/white-husky_marek-szturc-nDLYtRqJtMw-unsplash.jpg",
+            "landmarks": {
+                "Nose": {
+                    "x": 237.9209039548022,
+                    "y": 452.4745762711863
+                },
+                "LeftEye": {
+                    "x": 191.71751412429373,
+                    "y": 404.67796610169484
+                },
+                "RightEye": {
+                    "x": 284.12429378531067,
+                    "y": 413.70621468926544
+                },
+                "Left": {
+                    "x": 158.79096045197736,
+                    "y": 438.1355932203389
+                },
+                "Right": {
+                    "x": 305.8983050847457,
+                    "y": 463.6271186440677
+                },
+                "Top": {
+                    "x": 241.638418079096,
+                    "y": 356.8813559322033
+                },
+                "Bottom": {
+                    "x": 223.58192090395474,
+                    "y": 571.9661016949151
+                }
+            },
+            "breed_id": "white-husky"
+        },
+        {
+            "imagePath": "assets/data/breed_dataset/white-labrador_court-cook-7cic4kgHrR4-unsplash.jpg",
+            "landmarks": {
+                "Nose": {
+                    "x": 436.6101694915255,
+                    "y": 311.86440677966107
+                },
+                "LeftEye": {
+                    "x": 345.3107344632769,
+                    "y": 165.42372881355934
+                },
+                "RightEye": {
+                    "x": 523.3898305084747,
+                    "y": 144.63276836158195
+                },
+                "Left": {
+                    "x": 310.9604519774012,
+                    "y": 233.22033898305088
+                },
+                "Right": {
+                    "x": 565.8757062146893,
+                    "y": 218.75706214689268
+                },
+                "Top": {
+                    "x": 423.0508474576272,
+                    "y": 15.367231638418081
+                },
+                "Bottom": {
+                    "x": 460.1129943502825,
+                    "y": 412.2033898305085
+                }
+            },
+            "breed_id": "white-labrador"
+        }
+    ],
+    "breeds": [
+        {
+            "breed_id": "japanese-spitz",
+            "name": "Japanese Spitz",
+            "qualities": [
+                "reliable watchdog",
+                "active, loyal, and bright",
+                "particularly excellent and loving toward children"
+            ]
+        },
+        {
+            "breed_id": "cockapoo",
+            "name": "Cockapoo",
+            "qualities": [
+                "easy to train",
+                "frequently very needy",
+                "not suitable to be left alone for long periods"
+            ]
+        },
+        {
+            "breed_id": "bichon-frise",
+            "name": "Bichon Frise",
+            "qualities": [
+                "gentle mannered",
+                "sensitive",
+                "have an affinity for water and enjoy retrieving"
+            ]
+        },
+        {
+            "breed_id": "beagle",
+            "name": "Beagle",
+            "qualities": [
+                "superior tracking instincts",
+                "intelligent",
+                "average size of a beagle litter is six puppies"
+            ]
+        },
+        {
+            "breed_id": "border-collie",
+            "name": "Border Collie",
+            "qualities": [
+                "considered to be the most intelligent breed",
+                "extremely energetic, acrobatic and athletic",
+                "infamous for chewing holes in walls and furniture",
+                "may exhibit a strong desire to herd"
+            ]
+        },
+        {
+            "breed_id": "welsh-corgi",
+            "name": "Welsh Corgi",
+            "qualities": [
+                "would nip at the heels of the larger animals to keep them on the move",
+                "water resistant coat",
+                "favourite dogs of Queen Elizabeth II"
+            ]
+        },
+        {
+            "breed_id": "dingo",
+            "name": "Dingo",
+            "qualities": [
+                "only semi-domesticated",
+                "can truly survive without humans",
+                "not appreciated by Australians"
+            ]
+        },
+        {
+            "breed_id": "french-bulldog",
+            "name": "French Bulldog",
+            "qualities": [
+                "clowns of the dog world",
+                "rarely bark",
+                "have fairly minimal exercise needs"
+            ]
+        },
+        {
+            "breed_id": "golden-retriever",
+            "name": "Golden Retriever",
+            "qualities": [
+                "kindly, friendly and confident",
+                "compatible with other dogs, cats, and most livestock",
+                "adult Goldens love to work, and have a keen ability to focus on a given task"
+            ]
+        },
+        {
+            "breed_id": "labrador-retriever",
+            "name": "Labrador Retriever",
+            "qualities": [
+                "like to eat, and they can become obese without proper exercise",
+                "kind, pleasant, outgoing and tractable nature",
+                "prone to chewing objects",
+                "noted for their ability to tolerate cold water"
+            ]
+        },
+        {
+            "breed_id": "pitbull",
+            "name": "Pitbull",
+            "qualities": []
+        },
+        {
+            "breed_id": "siberian-husky",
+            "name": "Siberian Husky",
+            "qualities": []
+        },
+        {
+            "breed_id": "terrier",
+            "name": "Terrier",
+            "qualities": []
+        },
+        {
+            "breed_id": "white-husky",
+            "name": "White Husky",
+            "qualities": []
+        },
+        {
+            "breed_id": "white-labrador",
+            "name": "White Labrador",
+            "qualities": []
+        },
+        {
+            "breed_id": "bulldog",
+            "name": "Bulldog",
+            "qualities": []
+        }
+    ]
+}

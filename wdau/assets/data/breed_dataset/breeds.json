@@ -1,0 +1,136 @@
+[
+    {
+        "breed_id": "japanese-spitz",
+        "name": "Japanese Spitz",
+        "qualities": [
+            "reliable watchdog",
+            "active, loyal, and bright",
+            "particularly excellent and loving toward children"
+        ]
+    },
+    {
+        "breed_id": "cockapoo",
+        "name": "Cockapoo",
+        "qualities": [
+            "easy to train",
+            "frequently very needy",
+            "not suitable to be left alone for long periods"
+        ]
+    },
+    {
+        "breed_id": "bichon-frise",
+        "name": "Bichon Frise",
+        "qualities": [
+            "gentle mannered",
+            "sensitive",
+            "have an affinity for water and enjoy retrieving"
+        ]
+    },
+    {
+        "breed_id": "beagle",
+        "name": "Beagle",
+        "qualities": [
+            "superior tracking instincts",
+            "intelligent",
+            "average size of a beagle litter is six puppies"
+        ]
+    },
+    {
+        "breed_id": "border-collie",
+        "name": "Border Collie",
+        "qualities": [
+            "considered to be the most intelligent breed",            
+            "extremely energetic, acrobatic and athletic",
+            "infamous for chewing holes in walls and furniture",
+            "may exhibit a strong desire to herd"
+        ]
+    },
+    {
+        "breed_id": "welsh-corgi",
+        "name": "Welsh Corgi",
+        "qualities": [
+            "would nip at the heels of the larger animals to keep them on the move",
+            "water resistant coat",
+            "favourite dogs of Queen Elizabeth II"
+        ]
+    },
+    {
+        "breed_id": "dingo",
+        "name": "Dingo",
+        "qualities": [
+            "only semi-domesticated",
+            "can truly survive without humans",
+            "not appreciated by Australians"
+        ]
+    },
+    {
+        "breed_id": "french-bulldog",
+        "name": "French Bulldog",
+        "qualities": [
+            "clowns of the dog world",
+            "rarely bark",
+            "have fairly minimal exercise needs"
+        ]
+    },
+    {
+        "breed_id": "golden-retriever",
+        "name": "Golden Retriever",
+        "qualities": [
+            "kindly, friendly and confident",
+            "compatible with other dogs, cats, and most livestock",
+            "adult Goldens love to work, and have a keen ability to focus on a given task"
+        ]
+    },
+    {
+        "breed_id": "labrador-retriever",
+        "name": "Labrador Retriever",
+        "qualities": [
+            "like to eat, and they can become obese without proper exercise",
+            "kind, pleasant, outgoing and tractable nature",
+            "prone to chewing objects",
+            "noted for their ability to tolerate cold water"
+        ]
+    },
+    {
+        "breed_id": "pitbull",
+        "name": "Pitbull",
+        "qualities": [
+            
+        ]
+    },
+    {
+        "breed_id": "siberian-husky",
+        "name": "Siberian Husky",
+        "qualities": [
+            
+        ]
+    },
+    {
+        "breed_id": "terrier",
+        "name": "Terrier",
+        "qualities": [
+            
+        ]
+    },
+    {
+        "breed_id": "white-husky",
+        "name": "White Husky",
+        "qualities": [
+            
+        ]
+    },
+    {
+        "breed_id": "white-labrador",
+        "name": "White Labrador",
+        "qualities": [
+            
+        ]
+    },
+    {
+        "breed_id": "bulldog",
+        "name": "Bulldog",
+        "qualities": [
+            
+        ]
+    }
+]   
